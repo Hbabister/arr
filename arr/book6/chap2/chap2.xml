@@ -396,25 +396,24 @@
               <mo>=</mo>
             </mrow>
           </math>
-        </inlineequation> dimensionless kinetic energy coefficient. The term</para>
-      <equation xml:id="b6_ch2_e_4529b">
-        <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
-          <mi>&#x03B1;</mi>
-          <mfrac>
-            <mrow>
-              <msup>
-                <mi>u</mi>
+        </inlineequation> dimensionless kinetic energy coefficient. The term <inlineequation
+          xml:id="b6_ch2_e_4529b">
+          <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi>&#x03B1;</mi>
+            <mfrac>
+              <mrow>
+                <msup>
+                  <mi>u</mi>
+                  <mn>2</mn>
+                </msup>
+              </mrow>
+              <mrow>
                 <mn>2</mn>
-              </msup>
-            </mrow>
-            <mrow>
-              <mn>2</mn>
-              <mi>g</mi>
-            </mrow>
-          </mfrac>
-        </math>
-      </equation>
-      <para>represents the kinetic energy per unit weight of fluid (m).</para>
+                <mi>g</mi>
+              </mrow>
+            </mfrac>
+          </math>
+        </inlineequation> represents the kinetic energy per unit weight of fluid (m).</para>
       <para>The need for the kinetic energy coefficient
         (α<?oxy_delete author="ward" timestamp="20160621T120918+1000" content="a"?>) in <xref
           linkend="b6_ch2_e_nwlrp"/> and <xref linkend="b6_ch2_e_4529b"/> arises whenever the
@@ -431,77 +430,148 @@
         cube of the mean velocity over the cross-section having a different value from the cube of
         the velocity (at each point in the cross-section) when averaged over the
         cross-section.</para>
+      <para>Streamlines pass through a cross-section and are tangential to the instantaneous
+        velocity direction and bundles of these streamlines form a tube are called a streamtubes. By
+        definition there can be no flow normal to a streamline. Under steady flow conditions, the
+        application of the continuity equation to fluid flow through a streamtube involves equating
+        the mass flux (ρQ) at an upstream section to the mass flux at another section further
+        downstream. Similarly, in applying the energy equation (at the fundamental level for a fluid
+        i.e. energy flux rather than energy) to the same streamtube, the energy flux (ρgQH) at the
+        upstream section is equated to the energy flux at the downstream section provided there are
+        no energy losses (or gains). </para>
+      <para>In those idealised situations where the velocity at each cross-section of the streamtube
+        is uniform, equating the two energy fluxes degenerates into equating the total head at the
+        two sections. Whenever the velocity over the cross-section is non-uniform, use of the
+        kinetic energy coefficient (and this is its utility) enables us to write down expressions
+        for the velocity head in terms of the cross-sectionally averaged velocity (u). While the
+        cross-section averaged velocity is a convenient variable upon which to base any
+        computations, in compound channel flow the cross-sectional average velocity no longer
+        represents the actual velocity in either the main channel or the floodplain. </para>
+      <para>In the idealised situation where the velocity is uniform across the cross-section, the
+        flux of kinetic energy per unit weight and time is: </para>
+      <equation xml:id="b6_ch2_e_v1yh2">
+          <m:math display="block">
+              <m:mrow>
+                <m:mi>&#x03C1;</m:mi>
+                <m:mi>Q</m:mi>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>u</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:mi>g</m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mo>&#x221D;</m:mo>
+                <m:msup>
+                  <m:mi>u</m:mi>
+                  <m:mn>3</m:mn>
+                </m:msup>
+              </m:mrow>
+          </m:math>
+        </equation>
+      <para>In reality however, different parcels of fluid are moving at different rates and the
+        flux of velocity head (i.e. kinectic energy per unit weight of fluid) per unit time and area
+        is:</para>
+      <equation xml:id="b6_ch2_e_v1yh1">
+        <m:math display="block">
+          <m:mrow>
+            <m:mi>&#x03C1;</m:mi>
+            <m:mi>u</m:mi>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>u</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mi>g</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mo>&#x221D;</m:mo>
+            <m:msup>
+              <m:mi>u</m:mi>
+              <m:mn>3</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+      </equation>
       <para>Because the cube of the cross-sectionally averaged velocity will be less that the
         average of the local velocity cubed, the parameter α is introduced as:</para>
       <equation xml:id="b6_ch2_e_v1yh0">
-        <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
-          <mi>&#x03B1;</mi>
-          <mo>=</mo>
-          <mfrac>
-            <mrow>
-              <mstyle displaystyle="true">
-                <mo>&#x2211;</mo>
-                <mrow>
-                  <msub>
-                    <mi>Q</mi>
-                    <mi>i</mi>
-                  </msub>
-                  <msubsup>
-                    <mi>V</mi>
-                    <mi>i</mi>
-                    <mn>2</mn>
-                  </msubsup>
-                </mrow>
-              </mstyle>
-            </mrow>
-            <mrow>
-              <mi>Q</mi>
-              <msup>
-                <mi>V</mi>
-                <mn>2</mn>
-              </msup>
-            </mrow>
-          </mfrac>
-        </math>
+        <m:math display="block">
+            <m:mrow>
+              <m:mi>&#x03B1;</m:mi>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mo>&#x2211;</m:mo>
+                  <m:msub>
+                    <m:mi>Q</m:mi>
+                    <m:mi>i</m:mi>
+                  </m:msub>
+                  <m:msubsup>
+                    <m:mi>u</m:mi>
+                    <m:mi>i</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msubsup>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi>Q</m:mi>
+                  <m:msup>
+                    <m:mi>u</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mo>&#x2211;</m:mo>
+                  <m:msub>
+                    <m:mi>A</m:mi>
+                    <m:mi>i</m:mi>
+                  </m:msub>
+                  <m:msubsup>
+                    <m:mi>u</m:mi>
+                    <m:mi>i</m:mi>
+                    <m:mn>3</m:mn>
+                  </m:msubsup>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi>A</m:mi>
+                  <m:msup>
+                    <m:mi>u</m:mi>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+        </m:math>
       </equation>
-      <equation xml:id="b6_ch2_e_v6ohz">
-        <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
-          <mi>&#x03B1;</mi>
-          <mo>=</mo>
-          <mfrac>
-            <mrow>
-              <mstyle displaystyle="true">
-                <mo>&#x2211;</mo>
-                <mrow>
-                  <msub>
-                    <mi>A</mi>
-                    <mi>i</mi>
-                  </msub>
-                  <msubsup>
-                    <mi>V</mi>
-                    <mi>i</mi>
-                    <mn>3</mn>
-                  </msubsup>
-                </mrow>
-              </mstyle>
-            </mrow>
-            <mrow>
-              <mi>A</mi>
-              <msup>
-                <mi>V</mi>
-                <mn>3</mn>
-              </msup>
-            </mrow>
-          </mfrac>
-        </math>
-      </equation>
-      <para>where
-          <?oxy_delete author="ward" timestamp="20160621T115633+1000" content="u"?><?oxy_insert_start author="ward" timestamp="20160621T115635+1000"?>V<?oxy_insert_end?><subscript>i</subscript>
-        = velocity through cross-sectional area A<subscript>i</subscript><?oxy_insert_start author="ward" timestamp="20160621T115645+1000"?>,<?oxy_insert_end?>
-        <?oxy_delete author="ward" timestamp="20160621T115647+1000" content="u"?><?oxy_insert_start author="ward" timestamp="20160621T115648+1000"?>V<?oxy_insert_end?>
-        = cross-section averaged
-        velocity<?oxy_insert_start author="ward" timestamp="20160621T115705+1000"?> And A = total
-        flow
+      <para>where u<subscript>i</subscript> = velocity through cross-sectional area
+          A<subscript>i</subscript><?oxy_insert_start author="ward" timestamp="20160621T115645+1000"?>,<?oxy_insert_end?>
+        u = cross-section averaged velocity<?oxy_insert_start author="ward" timestamp="20160621T115705+1000"?>
+        <?oxy_insert_end?>a<?oxy_insert_start author="ward" timestamp="20160621T115705+1000"?>nd A =
+        total flow
         area.<?oxy_insert_end?><?oxy_delete author="ward" timestamp="20160621T115704+1000" content=" Qi = Aiui Q = Au"?></para>
       <para>In reality, the flow velocity varies over the cross-section and where measurements are
         available it is possible to evaluate the parameter <inlineequation>
@@ -818,8 +888,8 @@ What range are compound channels in?"?>
         critical flow is defined by setting the Froude number to unity.</para>
         <equation xml:id="b6_ch2_e_909rn">
           <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi>I</mi>
             <mi>F</mi>
-            <mi>r</mi>
             <mo>=</mo>
             <msqrt>
               <mrow>
@@ -861,8 +931,8 @@ What range are compound channels in?"?>
           expressions are:</para>
         <equation xml:id="b6_ch2_e_yfznb">
           <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi>I</mi>
             <mi>F</mi>
-            <mi>r</mi>
             <mo>=</mo>
             <mfrac>
               <mi>q</mi>
@@ -881,7 +951,7 @@ What range are compound channels in?"?>
             </mfrac>
             <mo>=</mo>
             <mfrac>
-              <mi>V</mi>
+              <mi>u</mi>
               <mrow>
                 <msqrt>
                   <mrow>
@@ -932,7 +1002,7 @@ What range are compound channels in?"?>
 
         <para>where q = flow per unit width in channel with rectangular cross-section
             (m<superscript>2</superscript>/s) y<subscript>c</subscript> = critical flow depth in
-          channel with rectangular cross-section (m), V = flow velocity (m/s) when the depth is
+          channel with rectangular cross-section (m), u = flow velocity (m/s) when the depth is
             y<subscript>c</subscript>.</para>
 
         <para>Cross-sections at which the flow is critical are special in that
@@ -992,12 +1062,10 @@ What range are compound channels in?"?>
         <title>Channels with a compound cross-section</title>
         <para>While much research attention has been focused on uniform flow in compound channels in
           the past, little work has been done on predicting critical depth in such channel
-          configurations. Critical depth in an
-          <?oxy_comment_start author="ward" timestamp="20151126T121813+1100" comment="Compound channel?"?>open
-          channel<?oxy_comment_end?> is most commonly defined as the point of minimum specific
-          energy, the point of minimum specific force, or the transition between supercritical and
-          subcritical flow, where the celerity of a surface wave is equal to the velocity of the
-          flow.</para>
+          configurations. Critical depth in an open channel is most commonly defined as the point of
+          minimum specific energy, the point of minimum specific force, or the transition between
+          supercritical and subcritical flow, where the celerity of a surface wave is equal to the
+          velocity of the flow.</para>
         <para><citation>b6_c2_r90+1</citation> were the first to propose an alternative Froude
           number for compound channels. This Froude number was based on a discharge weighted average
           of each subsections Froude number calculated from simple channel procedures. While this
@@ -1007,7 +1075,6 @@ What range are compound channels in?"?>
           in a compound channel based on the definition of minimum specific energy including the
           kinectic energy corrections coefficient.</para>
         <equation xml:id="b6_ch2_e_f6drt">
-          <?oxy_comment_start author="ward" timestamp="20151126T121932+1100" comment="should V be U? - mikayla"?>
           <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
             <mi>E</mi>
             <mo>=</mo>
@@ -1015,7 +1082,7 @@ What range are compound channels in?"?>
             <mfrac>
               <mrow>
                 <msup>
-                  <mi>V</mi>
+                  <mi>u</mi>
                   <mn>2</mn>
                 </msup>
               </mrow>
@@ -1027,7 +1094,6 @@ What range are compound channels in?"?>
             <mo>+</mo>
             <mi>y</mi>
           </math>
-          <?oxy_comment_end?>
         </equation>
         <para>where, <inlineequation>
             <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -1051,7 +1117,6 @@ What range are compound channels in?"?>
             <mi>F</mi>
             <msub>
               <mi>r</mi>
-              <mi>c</mi>
             </msub>
             <mo>=</mo>
             <msup>
@@ -1065,7 +1130,7 @@ What range are compound channels in?"?>
                         <mi>Q</mi>
                         <mn>2</mn>
                       </msup>
-                      <mi>T</mi>
+                      <mi>b</mi>
                     </mrow>
                     <mrow>
                       <mi>g</mi>
@@ -1114,11 +1179,10 @@ What range are compound channels in?"?>
             </msup>
           </math>
         </equation>
-        <para>where, Q is the total discharge, A is the total cross-sectional area and
-          <?oxy_comment_start author="ward" timestamp="20151126T122925+1100" comment="b?"?>T<?oxy_comment_end?>
-          is the channel top width.</para>
-        <para>Blalock and Sturm (1981) stated that early works on compound channel sections assumed
-          a value of unity for the value of kinetic energy correction factor, <inlineequation>
+        <para>where, Q is the total discharge, A is the total cross-sectional area and b is the
+          channel top width.</para>
+        <para><citation>b6_c2_r15+1</citation> stated that early works on compound channel sections
+          assumed a value of unity for the value of kinetic energy correction factor, <inlineequation>
             <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
               <mi>&#x03B1;</mi>
             </math>
@@ -1128,7 +1192,6 @@ What range are compound channels in?"?>
             <mi>F</mi>
             <msub>
               <mi>r</mi>
-              <mi>c</mi>
             </msub>
             <mo>=</mo>
             <msqrt>
@@ -1163,14 +1226,13 @@ What range are compound channels in?"?>
         <para><citation>b6_c2_r15+1</citation> found that the value of a is not a constant value,
           but varies as a function of depth in compound channels. <citation>b6_c2_r15+1</citation>
           evaluated the kinetic energy correction factor using the traditional divided channel
-          <?oxy_comment_start author="ward" timestamp="20151127T103837+1100" comment="Does this need a reference, Chow (1959) "?>method<?oxy_comment_end?>
-          with vertical divisions <citation>b6_c2_r20</citation>. The channel was split into three
-          independent sections, the main channel, and the two adjacent floodplains. The assumption
-          was that the non-uniformity in the velocity profile occurs predominantly as a result of
-          the difference in velocities between sections, and the variation within each section was
-          seen to be negligible. The Manning formula was used to calculate the conveyance of each
-          section and the boundary between the sub-sections was not included in the wetted perimeter
-          of the sub-sections. Using this method, the value of <inlineequation>
+          method with vertical divisions <citation>b6_c2_r20</citation>. The channel was split into
+          three independent sections, the main channel, and the two adjacent floodplains. The
+          assumption was that the non-uniformity in the velocity profile occurs predominantly as a
+          result of the difference in velocities between sections, and the variation within each
+          section was seen to be negligible. The Manning formula was used to calculate the
+          conveyance of each section and the boundary between the sub-sections was not included in
+          the wetted perimeter of the sub-sections. Using this method, the value of <inlineequation>
             <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
               <semantics>
                 <mi>α</mi>
@@ -1205,7 +1267,7 @@ What range are compound channels in?"?>
                       <mrow>
                         <msubsup>
                           <mi>A</mi>
-                          <mi>T</mi>
+                          <mi>i</mi>
                           <mn>2</mn>
                         </msubsup>
                       </mrow>
@@ -1218,14 +1280,14 @@ What range are compound channels in?"?>
                   <mrow>
                     <msubsup>
                       <mi>K</mi>
-                      <mi>T</mi>
+                      <mi>B</mi>
                       <mn>3</mn>
                     </msubsup>
                   </mrow>
                   <mrow>
                     <msubsup>
                       <mi>A</mi>
-                      <mi>T</mi>
+                      <mi>B</mi>
                       <mn>2</mn>
                     </msubsup>
                   </mrow>
@@ -1249,7 +1311,10 @@ What range are compound channels in?"?>
                 <mrow>
                   <mfrac>
                     <mn>1</mn>
-                    <mi>n</mi>
+                    <msub>
+                      <mi>n</mi>
+                      <mi>i</mi>
+                    </msub>
                   </mfrac>
                   <msub>
                     <mi>A</mi>
@@ -1288,116 +1353,106 @@ What range are compound channels in?"?>
           </inlineequation> is the Manning surface roughness coefficient, <inlineequation>
             <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
               <msub>
-                <mi>K</mi>
+                <mi>R</mi>
                 <mi>i</mi>
               </msub>
             </math>
           </inlineequation> is the hydraulic radius of the cross-section and
-            K<subscript>T</subscript>, A<subscript>T</subscript> are the total conveyance and
+            K<subscript>B</subscript>, A<subscript>B</subscript> are the total conveyance and
           cross-sectional area for the entire channel respectively.</para>
         <para>Differentiating <xref linkend="b6_ch2_e_ijl38"/> with respect to the depth <emphasis
             role="italic">y</emphasis> yields</para>
         <equation xml:id="b6_ch2_e_e8qdc">
-          <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
-            <mfrac>
-              <mrow>
-                <mo>&#x2202;</mo>
-                <mi>&#x03B1;</mi>
-              </mrow>
-              <mrow>
-                <mo>&#x2202;</mo>
-                <mi>y</mi>
-              </mrow>
-            </mfrac>
-            <mo>=</mo>
-            <mrow>
-              <mo>(</mo>
-              <mrow>
-                <mfrac>
-                  <mrow>
-                    <msub>
-                      <mi>A</mi>
-                      <mi>T</mi>
-                    </msub>
-                    <mn>2</mn>
-                    <msub>
-                      <mi>&#x03C3;</mi>
-                      <mn>1</mn>
-                    </msub>
-                  </mrow>
-                  <mrow>
-                    <msub>
-                      <mi>K</mi>
-                      <mrow>
-                        <msup>
-                          <mi>T</mi>
-                          <mn>3</mn>
-                        </msup>
-                      </mrow>
-                    </msub>
-                  </mrow>
-                </mfrac>
-                <mo>+</mo>
-                <msub>
-                  <mi>&#x03C3;</mi>
-                  <mn>2</mn>
-                </msub>
-                <mrow>
-                  <mo>(</mo>
-                  <mrow>
-                    <mfrac>
-                      <mrow>
-                        <mn>2</mn>
-                        <msub>
-                          <mi>A</mi>
-                          <mi>T</mi>
-                        </msub>
-                        <mi>T</mi>
-                      </mrow>
-                      <mrow>
-                        <msub>
-                          <mi>K</mi>
-                          <mrow>
-                            <msup>
-                              <mi>T</mi>
-                              <mn>3</mn>
-                            </msup>
-                          </mrow>
-                        </msub>
-                      </mrow>
-                    </mfrac>
-                    <mo>&#x2212;</mo>
-                    <mfrac>
-                      <mrow>
-                        <msub>
-                          <mi>A</mi>
-                          <mi>T</mi>
-                        </msub>
-                        <mn>2</mn>
-                        <msub>
-                          <mi>&#x03C3;</mi>
-                          <mn>3</mn>
-                        </msub>
-                      </mrow>
-                      <mrow>
-                        <msub>
-                          <mi>K</mi>
-                          <mrow>
-                            <msup>
-                              <mi>T</mi>
-                              <mn>4</mn>
-                            </msup>
-                          </mrow>
-                        </msub>
-                      </mrow>
-                    </mfrac>
-                  </mrow>
-                  <mo>)</mo>
-                </mrow>
-              </mrow>
-              <mo>)</mo>
-            </mrow>
-          </math>
+          <m:math display="block">
+            <m:mrow>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mi>d</m:mi>
+                  <m:mi>&#x03B1;</m:mi>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi>d</m:mi>
+                  <m:mi>y</m:mi>
+                </m:mrow>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msubsup>
+                        <m:mi>A</m:mi>
+                        <m:mi>B</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msubsup>
+                      <m:msub>
+                        <m:mi>&#x03C3;</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msubsup>
+                        <m:mi>K</m:mi>
+                        <m:mi>B</m:mi>
+                        <m:mn>3</m:mn>
+                      </m:msubsup>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo>+</m:mo>
+                  <m:msub>
+                    <m:mi>&#x03C3;</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msub>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                          <m:msub>
+                            <m:mi>A</m:mi>
+                            <m:mi>B</m:mi>
+                          </m:msub>
+                          <m:mi>B</m:mi>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:msubsup>
+                            <m:mi>K</m:mi>
+                            <m:mi>B</m:mi>
+                            <m:mn>3</m:mn>
+                          </m:msubsup>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mo>&#x2212;</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msubsup>
+                            <m:mi>A</m:mi>
+                            <m:mi>B</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msubsup>
+                          <m:msub>
+                            <m:mi>&#x03C3;</m:mi>
+                            <m:mn>3</m:mn>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:msubsup>
+                            <m:mi>K</m:mi>
+                            <m:mi>B</m:mi>
+                            <m:mn>4</m:mn>
+                          </m:msubsup>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo>)</m:mo>
+              </m:mrow>
+            </m:mrow>
+          </m:math>
         </equation>
         <para>where <inlineequation>
             <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -1409,82 +1464,82 @@ What range are compound channels in?"?>
           </inlineequation> is the n<superscript>th</superscript> subsection property defined by
             <citation>b6_c2_r15+1</citation> as:</para>
         <equation xml:id="b6_ch2_e_0sko6">
-          <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
-            <msub>
-              <mi>&#x03C3;</mi>
-              <mn>1</mn>
-            </msub>
-            <mo>=</mo>
-            <mstyle displaystyle="true">
-              <munderover>
-                <mo>&#x2211;</mo>
-                <mrow>
-                  <mi>i</mi>
-                  <mo>=</mo>
-                  <mn>1</mn>
-                </mrow>
-                <mn>3</mn>
-              </munderover>
-              <mrow>
-                <mrow>
-                  <mo>[</mo>
-                  <mrow>
-                    <mrow>
-                      <mo>(</mo>
-                      <mrow>
-                        <mfrac>
-                          <mrow>
-                            <msub>
-                              <mi>K</mi>
-                              <mi>i</mi>
-                            </msub>
-                          </mrow>
-                          <mrow>
-                            <msub>
-                              <mi>A</mi>
-                              <mi>i</mi>
-                            </msub>
-                          </mrow>
-                        </mfrac>
-                      </mrow>
-                      <mo>)</mo>
-                    </mrow>
-                    <mrow>
-                      <mo>(</mo>
-                      <mrow>
-                        <mn>3</mn>
-                        <msub>
-                          <mi>T</mi>
-                          <mi>i</mi>
-                        </msub>
-                        <mo>&#x2212;</mo>
-                        <mn>2</mn>
-                        <msub>
-                          <mi>R</mi>
-                          <mi>i</mi>
-                        </msub>
-                        <mfrac>
-                          <mrow>
-                            <mo>&#x2202;</mo>
-                            <msub>
-                              <mi>P</mi>
-                              <mi>i</mi>
-                            </msub>
-                          </mrow>
-                          <mrow>
-                            <mo>&#x2202;</mo>
-                            <mi>y</mi>
-                          </mrow>
-                        </mfrac>
-                      </mrow>
-                      <mo>)</mo>
-                    </mrow>
-                  </mrow>
-                  <mo>]</mo>
-                </mrow>
-              </mrow>
-            </mstyle>
-          </math>
+          <m:math display="block">
+            <m:mrow>
+              <m:msub>
+                <m:mi>&#x03C3;</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:munderover>
+                <m:mstyle mathsize="140%" displaystyle="true">
+                  <m:mo>&#x2211;</m:mo>
+                </m:mstyle>
+                <m:mrow>
+                  <m:mi>i</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+                <m:mn>3</m:mn>
+              </m:munderover>
+              <m:mrow>
+                <m:mo>[</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>K</m:mi>
+                            <m:mi>i</m:mi>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>A</m:mi>
+                            <m:mi>i</m:mi>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:msub>
+                        <m:mi>B</m:mi>
+                        <m:mi>i</m:mi>
+                      </m:msub>
+                      <m:mo>&#x2212;</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:msub>
+                        <m:mi>R</m:mi>
+                        <m:mi>i</m:mi>
+                      </m:msub>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mi>d</m:mi>
+                          <m:msub>
+                            <m:mi>P</m:mi>
+                            <m:mi>i</m:mi>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mi>d</m:mi>
+                          <m:mi>y</m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo>]</m:mo>
+              </m:mrow>
+            </m:mrow>
+          </m:math>
         </equation>
         <equation xml:id="b6_ch2_e_0sko62">
           <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -1525,87 +1580,85 @@ What range are compound channels in?"?>
           </math>
         </equation>
         <equation xml:id="b6_ch2_e_0sko63">
-          <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
-            <msub>
-              <mi>&#x03C3;</mi>
-              <mn>3</mn>
-            </msub>
-            <mo>=</mo>
-            <mstyle displaystyle="true">
-              <munderover>
-                <mo>&#x2211;</mo>
-                <mrow>
-                  <mi>i</mi>
-                  <mo>=</mo>
-                  <mn>1</mn>
-                </mrow>
-                <mn>3</mn>
-              </munderover>
-              <mrow>
-                <mrow>
-                  <mo>[</mo>
-                  <mrow>
-                    <mrow>
-                      <mo>(</mo>
-                      <mrow>
-                        <mfrac>
-                          <mrow>
-                            <msubsup>
-                              <mi>K</mi>
-                              <mi>i</mi>
-                              <mn>3</mn>
-                            </msubsup>
-                          </mrow>
-                          <mrow>
-                            <msubsup>
-                              <mi>A</mi>
-                              <mi>i</mi>
-                              <mn>2</mn>
-                            </msubsup>
-                          </mrow>
-                        </mfrac>
-                      </mrow>
-                      <mo>)</mo>
-                    </mrow>
-                    <mrow>
-                      <mo>(</mo>
-                      <mrow>
-                        <mn>5</mn>
-                        <msub>
-                          <mi>T</mi>
-                          <mi>i</mi>
-                        </msub>
-                        <mo>&#x2212;</mo>
-                        <mn>2</mn>
-                        <msub>
-                          <mi>R</mi>
-                          <mi>i</mi>
-                        </msub>
-                        <mfrac>
-                          <mrow>
-                            <mo>&#x2202;</mo>
-                            <msub>
-                              <mi>P</mi>
-                              <mi>i</mi>
-                            </msub>
-                          </mrow>
-                          <mrow>
-                            <mo>&#x2202;</mo>
-                            <mi>y</mi>
-                          </mrow>
-                        </mfrac>
-                      </mrow>
-                      <mo>)</mo>
-                    </mrow>
-                  </mrow>
-                  <mo>]</mo>
-                </mrow>
-              </mrow>
-            </mstyle>
-          </math>
+          <m:math display="block">
+            <m:mrow>
+              <m:msub>
+                <m:mi>&#x03C3;</m:mi>
+                <m:mn>3</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:munderover>
+                <m:mstyle mathsize="140%" displaystyle="true">
+                  <m:mo>&#x2211;</m:mo>
+                </m:mstyle>
+                <m:mrow>
+                  <m:mi>i</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+                <m:mn>3</m:mn>
+              </m:munderover>
+              <m:mrow>
+                <m:mo>[</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>K</m:mi>
+                            <m:mi>i</m:mi>
+                          </m:msup>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>A</m:mi>
+                            <m:mi>i</m:mi>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mrow>
+                      <m:mn>5</m:mn>
+                      <m:msub>
+                        <m:mi>B</m:mi>
+                        <m:mi>i</m:mi>
+                      </m:msub>
+                      <m:mo>&#x2212;</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:msub>
+                        <m:mi>R</m:mi>
+                        <m:mi>i</m:mi>
+                      </m:msub>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mi>d</m:mi>
+                          <m:msub>
+                            <m:mi>P</m:mi>
+                            <m:mi>i</m:mi>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mi>d</m:mi>
+                          <m:mi>y</m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo>]</m:mo>
+              </m:mrow>
+            </m:mrow>
+          </m:math>
         </equation>
         <para>and,
-            <?oxy_comment_start author="ward" timestamp="20151126T133430+1100" comment="?"?>T<subscript>i</subscript><?oxy_comment_end?>
+            B<?oxy_comment_start author="testoni" timestamp="20161110T122344+1100" comment="Changed T to B in all equations above."?><subscript>i</subscript><?oxy_comment_end?>
           is the top width of flow and P<subscript>i</subscript> is the wetted perimeter for the
             i<superscript>th</superscript> subsection.</para>
         <para>The Froude number for a compound channel, based on the definition of critical flow as
@@ -1615,72 +1668,75 @@ What range are compound channels in?"?>
         <?oxy_insert_start author="testoni" timestamp="20160617T182146+1000"?>
         <equation xml:id="b6_ch2_e_avzt7">
           <?oxy_insert_end?>
-          <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
-            <mi>F</mi>
-            <msub>
-              <mi>r</mi>
-              <mi>c</mi>
-            </msub>
-            <mo>=</mo>
-            <mfrac>
-              <mrow>
-                <msup>
-                  <mi>Q</mi>
-                  <mn>2</mn>
-                </msup>
-              </mrow>
-              <mrow>
-                <mn>2</mn>
-                <mi>g</mi>
-                <msub>
-                  <mi>K</mi>
-                  <mrow>
-                    <msup>
-                      <mi>T</mi>
-                      <mn>3</mn>
-                    </msup>
-                  </mrow>
-                </msub>
-              </mrow>
-            </mfrac>
-            <msup>
-              <mrow>
-                <mo>(</mo>
-                <mrow>
-                  <mfrac>
-                    <mrow>
-                      <msub>
-                        <mi>&#x03C3;</mi>
-                        <mn>2</mn>
-                      </msub>
-                      <msub>
-                        <mi>&#x03C3;</mi>
-                        <mn>1</mn>
-                      </msub>
-                    </mrow>
-                    <mrow>
-                      <msub>
-                        <mi>K</mi>
-                        <mi>T</mi>
-                      </msub>
-                    </mrow>
-                  </mfrac>
-                  <mo>&#x2212;</mo>
-                  <msub>
-                    <mi>&#x03C3;</mi>
-                    <mn>1</mn>
-                  </msub>
-                </mrow>
-                <mo>)</mo>
-              </mrow>
-              <mrow>
-                <mfrac>
-                  <mn>1</mn>
-                  <mn>2</mn>
-                </mfrac>
-              </mrow>
-            </msup>
-          </math>
+          <m:math display="block">
+            <m:mrow>
+              <m:msub>
+                <m:mi>F</m:mi>
+                <m:mi>c</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>Q</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>g</m:mi>
+                  <m:msub>
+                    <m:mi>K</m:mi>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>B</m:mi>
+                        <m:mn>3</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+              </m:mfrac>
+              <m:msup>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>&#x03C3;</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                          <m:msub>
+                            <m:mi>&#x03C3;</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>K</m:mi>
+                            <m:mi>B</m:mi>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mo>&#x2212;</m:mo>
+                      <m:msub>
+                        <m:mi>&#x03C3;</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:math>
           <?oxy_insert_start author="testoni" timestamp="20160617T182146+1000"?>
         </equation>
         <?oxy_insert_end?>
@@ -11972,4 +12028,3 @@ think / rather than -1
   </xi:include>
   
 </chapter>
-
