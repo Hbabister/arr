@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter version="5.0" xml:id="b6_ch2" xmlns="http://docbook.org/ns/docbook"
-         xmlns:xlink="http://www.w3.org/1999/xlink"
-         xmlns:xi="http://www.w3.org/2001/XInclude"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         xmlns:m="http://www.w3.org/1998/Math/MathML"
-         xmlns:html="http://www.w3.org/1999/xhtml"
-         xmlns:db="http://docbook.org/ns/docbook">
+<chapter version="5.0" xml:id="b6_ch2" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:db="http://docbook.org/ns/docbook">
   <info>
     <title>Open Channel Hydraulics</title>
     <xi:include href="../../common/authors/lambert_martin.xml"/>
@@ -109,8 +103,7 @@
       as well as a shallower over-bank area (floodplain). These are often referred to as compound
       channels. During floods, the flow frequently leaves the in-bank channel and enters the
       over-bank area as shown in <xref linkend="b6_ch2_f_kgjk2"/>. An illustration of a complex
-      floodplain associated with the River Murray in South Australia is shown in <xref
-        linkend="b6_ch2_f_2"/>. The increase in roughness on the floodplain due to vegetation means
+      floodplain associated with the River Murray in South Australia is shown in <xref linkend="b6_ch2_f_2"/>. The increase in roughness on the floodplain due to vegetation means
       that the floodplain flows are typically shallower and slower than the flow in the main
       channel. This can lead to a complex interaction between the two flows and in meandering
       channels the flow direction may be different from the main
@@ -183,8 +176,7 @@
     <para>Depth is usually measured vertically up from the bottom point in the cross-section (rather
       than at right angles to the bed), while
       <?oxy_insert_start author="ward" timestamp="20160617T103715+1000"?>the <?oxy_insert_end?>stage
-      is measured vertically from a datum to the water surface. See <xref linkend="b6_ch2_f_4ghj"
-      />.</para>
+      is measured vertically from a datum to the water surface. See <xref linkend="b6_ch2_f_4ghj"/>.</para>
     <?oxy_insert_start author="ward" timestamp="20160617T104344+1000"?>
     <figure xml:id="b6_ch2_f_4ghj">
       <title>Parameters characterising flows in open channels</title>
@@ -261,8 +253,7 @@
       </mediaobject>
     </figure>
     <para>The distribution of longitudinal velocity in a cross-section is controlled by the channel
-      shape and the location of the free surface and boundary roughness. <xref linkend="b6_ch2_f_5"
-      /> shows by lines of equal velocity the distribution of velocity in a
+      shape and the location of the free surface and boundary roughness. <xref linkend="b6_ch2_f_5"/> shows by lines of equal velocity the distribution of velocity in a
       <?oxy_delete author="ward" timestamp="20160617T105121+1000" content="small "?>straight
       laboratory channel. <xref linkend="b6_ch2_f_6"/> shows, for comparison, the velocity
       distribution in a typical river cross-section.</para>
@@ -385,19 +376,15 @@
       </equation>
       <para>where... <emphasis role="italic">z</emphasis> = vertical distance from the datum to the
         channel invert or potential energy (<emphasis role="italic">J</emphasis> ) per unit weight
-        of fluid (m), <emphasis role="italic">y</emphasis> = depth of flow (m), <emphasis
-          role="italic">u</emphasis> = cross-sectionally averaged flow velocity (m/s), <emphasis
-          role="italic">g</emphasis> = acceleration due to gravity
-          =9.8<?oxy_delete author="ward" timestamp="20160617T105359+1000" content="1"?><?oxy_insert_start author="ward" timestamp="20160617T105400+1000"?>06<?oxy_insert_end?>m<superscript>2</superscript>/<emphasis
-          role="italic">s</emphasis>, <inlineequation>
+        of fluid (m), <emphasis role="italic">y</emphasis> = depth of flow (m), <emphasis role="italic">u</emphasis> = cross-sectionally averaged flow velocity (m/s), <emphasis role="italic">g</emphasis> = acceleration due to gravity
+          =9.8<?oxy_delete author="ward" timestamp="20160617T105359+1000" content="1"?><?oxy_insert_start author="ward" timestamp="20160617T105400+1000"?>06<?oxy_insert_end?>m<superscript>2</superscript>/<emphasis role="italic">s</emphasis>, <inlineequation>
           <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
             <mrow>
               <mi>&#x03B1;</mi>
               <mo>=</mo>
             </mrow>
           </math>
-        </inlineequation> dimensionless kinetic energy coefficient. The term <inlineequation
-          xml:id="b6_ch2_e_4529b">
+        </inlineequation> dimensionless kinetic energy coefficient. The term <inlineequation xml:id="b6_ch2_e_4529b">
           <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
             <mi>&#x03B1;</mi>
             <mfrac>
@@ -415,8 +402,7 @@
           </math>
         </inlineequation> represents the kinetic energy per unit weight of fluid (m).</para>
       <para>The need for the kinetic energy coefficient
-        (α<?oxy_delete author="ward" timestamp="20160621T120918+1000" content="a"?>) in <xref
-          linkend="b6_ch2_e_nwlrp"/> and <xref linkend="b6_ch2_e_4529b"/> arises whenever the
+        (α<?oxy_delete author="ward" timestamp="20160621T120918+1000" content="a"?>) in <xref linkend="b6_ch2_e_nwlrp"/> and <xref linkend="b6_ch2_e_4529b"/> arises whenever the
         velocity is non-uniform over the cross-section. In the case of a uniform velocity over a
         cross-section, <inlineequation>
           <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -653,21 +639,19 @@ What range are compound channels in?"?>
         </listitem>
         <listitem>
           <para>that depth measured vertically (<emphasis role="italic">y</emphasis>) which is a
-            good approximation to the actual pressure head (<emphasis role="italic"
-              >y</emphasis>cos<superscript>2</superscript><emphasis role="italic">θ</emphasis> ) in
+            good approximation to the actual pressure head (<emphasis role="italic">y</emphasis>cos<superscript>2</superscript><emphasis role="italic">θ</emphasis> ) in
             an open channel flow with a bed inclined at<emphasis role="italic"> θ</emphasis> to the
             horizontal. For example, a bedslope (S = tan<emphasis role="italic">θ</emphasis>) which
             is as steep as 1V:10H (or <emphasis role="italic">θ</emphasis> = 5.7°) only gives rise
             to an error which is close to 1% of the depth i.e. y.
-            cos<superscript>2</superscript>(5.7° ) = 0.99<emphasis role="italic"
-            >y</emphasis>.</para>
+            cos<superscript>2</superscript>(5.7° ) = 0.99<emphasis role="italic">y</emphasis>.</para>
         </listitem>
       </orderedlist>
     </section>
   </section>
 
   <section xml:id="b6_ch2_s_kntoo">
-    <title>Classification of Free Surface <?oxy_comment_start author="ward" timestamp="20151126T115141+1100" comment="should this section come earlier ? before open channel flow "?>Flows<?oxy_comment_end ?></title>
+    <title>Classification of Free Surface <?oxy_comment_start author="ward" timestamp="20151126T115141+1100" comment="should this section come earlier ? before open channel flow "?>Flows<?oxy_comment_end?></title>
 
     <para>Free surface flows are flows in which the top water surface is subject to atmospheric
       pressure but is free from shear stresses exerted by any containing flow boundaries from the
@@ -863,10 +847,8 @@ What range are compound channels in?"?>
     <section xml:id="b6_ch2_s_i96ba">
       <title>Critical Flow</title>
 
-      <para>Critical flow occurs when the specific energy (<emphasis
-      role="italic">E</emphasis>) at a cross-section is a minimum for a fixed
-      flow, and this corresponds to the Froude number (<emphasis
-      role="italic">Fr</emphasis>) having the value of unity at that
+      <para>Critical flow occurs when the specific energy (<emphasis role="italic">E</emphasis>) at a cross-section is a minimum for a fixed
+      flow, and this corresponds to the Froude number (<emphasis role="italic">Fr</emphasis>) having the value of unity at that
       cross-section. Here, we consider two cases:</para>
 
       <orderedlist numeration="lowerroman">
@@ -969,7 +951,7 @@ What range are compound channels in?"?>
           </math>
         </equation>
         <equation xml:id="b6_ch2_e_9s03x">
-          <math display='block' xmlns="http://www.w3.org/1998/Math/MathML">
+          <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
             <msub>
               <mi>y</mi>
               <mi>c</mi>
@@ -1685,15 +1667,11 @@ What range are compound channels in?"?>
                 <m:mrow>
                   <m:mn>2</m:mn>
                   <m:mi>g</m:mi>
-                  <m:msub>
+                  <m:msubsup>
                     <m:mi>K</m:mi>
-                    <m:mrow>
-                      <m:msup>
-                        <m:mi>B</m:mi>
-                        <m:mn>3</m:mn>
-                      </m:msup>
-                    </m:mrow>
-                  </m:msub>
+                    <m:mi>B</m:mi>
+                    <m:mn>3</m:mn>
+                  </m:msubsup>
                 </m:mrow>
               </m:mfrac>
               <m:msup>
@@ -1740,17 +1718,459 @@ What range are compound channels in?"?>
           <?oxy_insert_start author="testoni" timestamp="20160617T182146+1000"?>
         </equation>
         <?oxy_insert_end?>
-        <para>This approach can result in multiple values for critical depth in a compound channel.
-          Typically, one crtitical depth is within the main channel and the other is above. Exactly
-          which value should be used is somewhat unclear and is often found by a numerical
-          minimisation method.</para>
-        <para>For any given overbank depth a discharge and velocity can be computed using the
-          divided channel method with vertical divisions, and a subsection Froude number could be
-          computed based on these values. This is consistent with treating these sub-sections as
-          independent channels. Further discussion of this is given in
-            <citation>b6_c2_r63+1</citation> who suggested that there may be a transition zone
-          between subcritical and supercritical flow where a mixed flow regime is possible and that
-          the concept of specific value of critical depth given above may not be meaningful.</para>
+        <para><?oxy_delete author="testoni" timestamp="20161110T124453+1100" content="This approach can result in multiple values for critical depth in a compound channel. Typically, one crtitical depth is within the main channel and the other is above. Exactly which value should be used is somewhat unclear and is often found by a numerical minimisation method."?><?oxy_insert_start author="testoni" timestamp="20161110T124453+1100"?>This
+          approach can result in multiple values for critical depth in a compound channel.
+            <citation>b6_c2_r19+1</citation> developed an alternative method for predicting critical
+          depth in a compound channel based on the one dimensional unsteady flow equations. They
+          defined the critical depth as the point where the celerity of a surface disturbance
+          (defined using the method of characteristics equations) is equal to <inlineequation>
+            <m:math display="block">
+              <m:mrow>
+                <m:mi>&#x03B2;</m:mi>
+                <m:mi>u</m:mi>
+              </m:mrow>
+            </m:math>
+          </inlineequation>, the average velocity multiplied by the momentum correction coefficient (<inlineequation>
+            <m:math display="block">
+              <m:mrow>
+                <m:mi>&#x03B2;</m:mi>
+              </m:mrow>
+            </m:math>
+          </inlineequation>). Using this definition, <citation>b6_c2_r19+1</citation> have developed
+          the Froude number for a compound channel as follows:<?oxy_insert_end?></para>
+        <?oxy_insert_start author="testoni" timestamp="20161110T125547+1100"?>
+        <equation  xml:id="b6_ch2_e_avzx8">
+          <m:math display="block">
+            <m:mrow>
+              <m:msub>
+                <m:mi>F</m:mi>
+                <m:mi>c</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mi>&#x03B2;</m:mi>
+                  <m:mi>u</m:mi>
+                </m:mrow>
+                <m:mrow>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mi>g</m:mi>
+                          <m:mi>A</m:mi>
+                        </m:mrow>
+                        <m:mi>B</m:mi>
+                      </m:mfrac>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mi>u</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>&#x03B2;</m:mi>
+                            <m:mn>3</m:mn>
+                          </m:msup>
+                          <m:mo>&#x2212;</m:mo>
+                          <m:mi>&#x03B2;</m:mi>
+                          <m:mo>+</m:mo>
+                          <m:mfrac>
+                            <m:mi>A</m:mi>
+                            <m:mi>B</m:mi>
+                          </m:mfrac>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mi>d</m:mi>
+                              <m:mi>&#x03B2;</m:mi>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mi>d</m:mi>
+                              <m:mi>y</m:mi>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para>where, <inlineequation>
+            <m:math display="block">
+              <m:mrow>
+                <m:mi>&#x03B2;</m:mi>
+              </m:mrow>
+            </m:math>
+          </inlineequation> is the momentum correction coefficient and B is the channel top
+          width.</para>
+        <para>Similar to the specific energy method proposed by <citation>b6_c2_r15+1</citation>,
+            <citation>b6_c2_r135+1</citation>, the <citation>b6_c2_r19+1</citation> momentum (or
+          celerity) method utilized the divided channel method to evaluate the momentum correction
+          coefficient, <inlineequation>
+            <m:math display="block">
+              <m:mrow>
+                <m:mi>&#x03B2;</m:mi>
+              </m:mrow>
+            </m:math>
+          </inlineequation> and its derivative. Using this, it was found that:</para>
+        <equation xml:id="b6_ch2_e_avzy9">
+          <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"/>
+          <m:math display="block">
+            <m:mrow>
+              <m:mi>&#x03B2;</m:mi>
+              <m:mo>=</m:mo>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msubsup>
+                        <m:mi>K</m:mi>
+                        <m:mrow>
+                          <m:mi>M</m:mi>
+                          <m:mi>C</m:mi>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msubsup>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>A</m:mi>
+                        <m:mrow>
+                          <m:mi>M</m:mi>
+                          <m:mi>C</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo>+</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:msubsup>
+                        <m:mi>K</m:mi>
+                        <m:mrow>
+                          <m:mi>F</m:mi>
+                          <m:mi>P</m:mi>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msubsup>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>A</m:mi>
+                        <m:mrow>
+                          <m:mi>F</m:mi>
+                          <m:mi>P</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mfrac>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>A</m:mi>
+                    <m:mi>B</m:mi>
+                  </m:msub>
+                </m:mrow>
+                <m:mrow>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>K</m:mi>
+                            <m:mi>B</m:mi>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para>and,</para>
+        <equation xml:id="b6_ch2_e_avzz1">
+          <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"/>
+          <m:math display="block">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>d</m:mi>
+                    <m:mi>&#x03B2;</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>d</m:mi>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo>=</m:mo>
+                <m:mi>T</m:mi>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>m</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>A</m:mi>
+                          <m:mrow>
+                            <m:mi>M</m:mi>
+                            <m:mi>C</m:mi>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>+</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo>(</m:mo>
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                                <m:mo>&#x2212;</m:mo>
+                                <m:mi>m</m:mi>
+                              </m:mrow>
+                              <m:mo>)</m:mo>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:msub>
+                          <m:mi>A</m:mi>
+                          <m:mrow>
+                            <m:mi>F</m:mi>
+                            <m:mi>P</m:mi>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mo>+</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>A</m:mi>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mi>m</m:mi>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>A</m:mi>
+                          <m:mrow>
+                            <m:mi>M</m:mi>
+                            <m:mi>C</m:mi>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>+</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo>&#x2212;</m:mo>
+                            <m:mi>m</m:mi>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:msub>
+                          <m:mi>A</m:mi>
+                          <m:mrow>
+                            <m:mi>F</m:mi>
+                            <m:mi>P</m:mi>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>d</m:mi>
+                    <m:mi>m</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>d</m:mi>
+                    <m:mi>Y</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo>&#x2212;</m:mo>
+                <m:mi>A</m:mi>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mi>m</m:mi>
+                              <m:mrow>
+                                <m:msub>
+                                  <m:mi>A</m:mi>
+                                  <m:mrow>
+                                    <m:mi>M</m:mi>
+                                    <m:mi>C</m:mi>
+                                  </m:mrow>
+                                </m:msub>
+                              </m:mrow>
+                            </m:mfrac>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mi>d</m:mi>
+                        <m:msub>
+                          <m:mi>A</m:mi>
+                          <m:mrow>
+                            <m:mi>M</m:mi>
+                            <m:mi>C</m:mi>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>d</m:mi>
+                        <m:mi>Y</m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>+</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo>(</m:mo>
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                                <m:mo>&#x2212;</m:mo>
+                                <m:mi>m</m:mi>
+                              </m:mrow>
+                              <m:mo>)</m:mo>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:msubsup>
+                          <m:mi>A</m:mi>
+                          <m:mrow>
+                            <m:mi>F</m:mi>
+                            <m:mi>P</m:mi>
+                          </m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:msubsup>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mi>d</m:mi>
+                        <m:msub>
+                          <m:mi>A</m:mi>
+                          <m:mrow>
+                            <m:mi>F</m:mi>
+                            <m:mi>P</m:mi>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>d</m:mi>
+                        <m:mi>Y</m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mrow>
+          </m:math>
+        </equation>
+        <para>where, <inlineequation>
+            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"/>
+            <m:math display="block">
+
+                <m:mrow>
+                  <m:mi>m</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>K</m:mi>
+                        <m:mrow>
+                          <m:mi>M</m:mi>
+                          <m:mi>C</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>K</m:mi>
+                        <m:mi>B</m:mi>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+            </m:math>
+          </inlineequation> and the subscripts MC, FP and B represent the main channel and
+          floodplain components and total respectively.</para>
+        <?oxy_insert_end?>
+        <?oxy_delete author="testoni" timestamp="20161110T132922+1100" content="&lt;para&gt;For any given overbank depth a discharge and velocity can be computed using the divided channel method with vertical divisions, and a subsection Froude number could be computed based on these values. This is consistent with treating these sub-sections as independent channels. Further discussion of this is given in &lt;citation&gt;b6_c2_r63+1&lt;/citation&gt; who suggested that there may be a transition zone between subcritical and supercritical flow where a mixed flow regime is possible and that the concept of specific value of critical depth given above may not be meaningful.&lt;/para&gt;"?>
+        <?oxy_insert_start author="testoni" timestamp="20161110T132718+1100"?>
+        <para>The energy and momentum methods approach the same problem of critical depth prediction
+          from different viewpoints. A comparison between the approaches shows that even though that
+          they are not exactly the same, there is very little difference between the two methods.
+          This has been pointed out in <citation>b6_c2_r16+1</citation> and <citation>b6_c2_r123+1</citation>. </para>
+        <para>While these two methods have been the most widely used, there have been other
+          attempts, the most noted of which was by <citation>b6_c2_r106+1</citation>, with the proposal for
+          a subsection Froude number.  <citation>b6_c2_r106+1</citation> proposed that due to the different
+          flow properties in each subsection, it is illogical to speak of a composite Froude number
+          or a composite specific energy function for the entire compound channel. Schoellhamer’s
+          approach is similar to that proposed by <citation>b6_c2_r15+1</citation>, however, it uses
+          subsection information to give estimates of the subsection Froude numbers. For any given
+          overbank depth a discharge and velocity can be computed using the divided channel method
+          with vertical divisions, and a subsection Froude number could be computed based on these
+          values. Further discussion of this is given in <citation>b6_c2_r63+1</citation> who
+          suggested that there may be a transition zone between subcritical and supercritical flow
+          where a mixed regime is possible. </para>
+        <?oxy_insert_end?>
       </section>
     </section>
 
@@ -1792,7 +2212,7 @@ What range are compound channels in?"?>
       length (L) in <xref linkend="b6_ch2_f_gjvqj"/>.</para>
 
       <equation xml:id="b6_ch2_e_zhq7r">
-        <math display='block' xmlns="http://www.w3.org/1998/Math/MathML">
+        <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
           <mi>W</mi><mi>sin</mi><mi>&#x03B8;</mi><mo>=</mo><msub>
             <mi>F</mi>
             <mi>T</mi>
@@ -1872,7 +2292,7 @@ What range are compound channels in?"?>
       </equation>
 
       <equation xml:id="b6_ch2_e_o7eyv">
-        <math display='block' xmlns="http://www.w3.org/1998/Math/MathML">
+        <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
           <mi>w</mi><mi>h</mi><mi>e</mi><mi>r</mi><mi>e</mi><mn>...</mn><msub>
             <mi>R</mi>
             <mi>h</mi>
@@ -2099,8 +2519,7 @@ What range are compound channels in?"?>
                   <mn>1</mn>
                 </msup>
               </math>
-            </inlineequation> -These dimensions result directly from the Manning equation <xref
-              linkend="b6_ch2_e_iukil"/>,</para>
+            </inlineequation> -These dimensions result directly from the Manning equation <xref linkend="b6_ch2_e_iukil"/>,</para>
         </listitem>
 
         <listitem>
@@ -2172,8 +2591,7 @@ What range are compound channels in?"?>
                   </mrow>
                 </msqrt>
               </math>
-            </inlineequation> attached to the right hand side of the Manning equation <xref
-              linkend="b6_ch2_e_iukil"/>. In engineering practice, this is perhaps the most commonly
+            </inlineequation> attached to the right hand side of the Manning equation <xref linkend="b6_ch2_e_iukil"/>. In engineering practice, this is perhaps the most commonly
             adopted version for the units of Manning n.</para>
         </listitem>
       </itemizedlist>
@@ -2388,8 +2806,7 @@ What range are compound channels in?"?>
             slope between sections.</para>
         </listitem>
       </orderedlist>
-      <para>An example of the information contained in this reference is reproduced in <xref
-          linkend="b6_ch2_f_qxhtx"/> to <xref linkend="b6_ch2_f_fvakg"/> which refers to Esopus
+      <para>An example of the information contained in this reference is reproduced in <xref linkend="b6_ch2_f_qxhtx"/> to <xref linkend="b6_ch2_f_fvakg"/> which refers to Esopus
         Creek. (Esopus Creek is one of three waterways with Manning n = 0.030 included in this
         reference.)</para>
       <para>Interestingly, rivers and streams with sandy beds were not included in this reference
@@ -2471,8 +2888,7 @@ What range are compound channels in?"?>
         areas should only account for the nature of the land-use (such as grass, paved, or vegetated
         areas). Alternatively, where buildings or other major obstructions are not explicitly
         modelled, the impact of these features on losses can be incorporated into the roughness
-        parameter, using a significantly higher value than would otherwise be the case. <xref
-          linkend="b6_ch4"/> contains further discussion on incorporating buildings, fences and
+        parameter, using a significantly higher value than would otherwise be the case. <xref linkend="b6_ch4"/> contains further discussion on incorporating buildings, fences and
         other urban features within the 2D domain.</para>
       <para><?oxy_delete author="ward" timestamp="20160621T140809+1000" content="&lt;emphasis role=&quot;bold&quot;&gt;Developing Hydraulic Roughness&lt;/emphasis&gt;"?></para>
       <para>Applicable ranges for hydraulic roughness in 1D models have been well established and
@@ -2496,8 +2912,7 @@ What range are compound channels in?"?>
         is generally parameterised in terms of
         Manning<?oxy_delete author="ward" timestamp="20160621T141111+1000" content="’s"?> ‘n’, or
         similar related parameterisation of bed friction. Typical ranges of 2D roughness parameters
-        for various land-use types are listed in <?oxy_comment_end?><xref linkend="b6_ch2_t_cqw96"
-        />.</para>
+        for various land-use types are listed in <?oxy_comment_end?><xref linkend="b6_ch2_t_cqw96"/>.</para>
       <para>
         <table frame="void" xml:id="b6_ch2_t_cqw96">
           <caption>Valid Manning ‘n’ Ranges for Different Land Use Types</caption>
@@ -2608,7 +3023,7 @@ What range are compound channels in?"?>
       <equation xml:id="b6_ch2_e_yerz3">
         <?oxy_comment_start author="ward" timestamp="20151126T143542+1100" comment="Rh? or R"?>
 
-        <math display='block' xmlns="http://www.w3.org/1998/Math/MathML">
+        <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
           <mi>u</mi><mo>=</mo><mi>C</mi><msqrt>
             <mrow>
               <mi>S</mi><msub>
@@ -2621,7 +3036,7 @@ What range are compound channels in?"?>
         </math>
         
 
-        <?oxy_comment_end ?>
+        <?oxy_comment_end?>
       </equation>
 
       <para>where. . . u = cross-sectionally averaged velocity (m/s) = Q/A, Q
@@ -2800,8 +3215,7 @@ think / rather than -1
         and which separates the stationary fluid immediately in contact with the stationary flow
         boundary and the overlying turbulent boundary layer.</para>
 
-      <para>It is evident from the denominator in <xref
-      linkend="b6_ch2_e_gdgk4"/> that there are two extremes of turbulent
+      <para>It is evident from the denominator in <xref linkend="b6_ch2_e_gdgk4"/> that there are two extremes of turbulent
       flow:</para>
 
       <itemizedlist>
@@ -2872,8 +3286,7 @@ think / rather than -1
         nature of the surface of the channel boundary. Three examples are earthen channels,
         brickwork, and concrete. Amongst other references, useful tabulations of the values for ks
         for various channel surfaces may be found in Table 5-6 of <citation>b6_c2_r20+1</citation>
-        or Table 4-1 in <citation>b6_c2_r37+1</citation>. The values in <xref
-          linkend="b6_ch2_t_1sqid"/> were extracted from <citation>b6_c2_r41+1</citation> Table 3 in
+        or Table 4-1 in <citation>b6_c2_r37+1</citation>. The values in <xref linkend="b6_ch2_t_1sqid"/> were extracted from <citation>b6_c2_r41+1</citation> Table 3 in
         Charts for the Hydraulic Design of Channels and Pipes.<table frame="void">
           <caption>Values of the roughness projection height k<subscript>s</subscript> and Manning n
             for straight, clean pipes concentrically jointed. </caption>
@@ -2989,8 +3402,7 @@ think / rather than -1
     <section xml:id="b6_ch2_s_r171b">
       <title>Application of the Chezy Equation</title>
 
-      <para>In hydraulic investigations, the Chezy equation (<xref
-      linkend="b6_ch2_e_yerz3"/>) can be applied in two modes:</para>
+      <para>In hydraulic investigations, the Chezy equation (<xref linkend="b6_ch2_e_yerz3"/>) can be applied in two modes:</para>
 
       <orderedlist>
         <listitem>
@@ -3030,12 +3442,11 @@ think / rather than -1
 
       <para>Some justification may be given for use of the Manning equation in terms of the
         dimensionally consistent Darcy-Weisbach friction factor. <xref linkend="b6_ch2_f_whh6k"/>
-        shows the logarithmic relationship for rough non-circular sections given in <xref
-          linkend="b6_ch2_e_lprj7"/> which is plotted against the power law approximation presented
+        shows the logarithmic relationship for rough non-circular sections given in <xref linkend="b6_ch2_e_lprj7"/> which is plotted against the power law approximation presented
         in <xref linkend="b6_ch2_e_ihpfv"/>.</para>
 
       <equation xml:id="b6_ch2_e_lprj7">
-        <math display='block' xmlns="http://www.w3.org/1998/Math/MathML">
+        <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
           <mfrac>
             <mn>1</mn>
             <mrow>
@@ -3093,8 +3504,7 @@ think / rather than -1
         
       </equation>
 
-      <para><xref linkend="b6_ch2_e_ihpfv"/> provides an adequate description of <xref
-          linkend="b6_ch2_e_lprj7"/>, giving an error of ± 5 %, within the range 5 &lt; &lt; 500.
+      <para><xref linkend="b6_ch2_e_ihpfv"/> provides an adequate description of <xref linkend="b6_ch2_e_lprj7"/>, giving an error of ± 5 %, within the range 5 &lt; &lt; 500.
         Given that the Manning roughness coefficient is related to the Darcy-Weisbach friction
         factor by n = <inlineequation>
           <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -3137,7 +3547,7 @@ think / rather than -1
         produces:</para>
 
       <equation xml:id="b6_ch2_e_h6wii">
-        <math display='block' xmlns="http://www.w3.org/1998/Math/MathML">
+        <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
           <mi>n</mi><mo>=</mo><mn>0.039</mn><msubsup>
             <mi>k</mi>
             <mi>s</mi>
@@ -3165,8 +3575,7 @@ think / rather than -1
 
       <figure xml:id="b6_ch2_f_whh6k">
         <title>Comparison between <xref linkend="b6_ch2_e_lprj7"/> and the
-        power law approximation presented in <xref
-        linkend="b6_ch2_e_ihpfv"/></title>
+        power law approximation presented in <xref linkend="b6_ch2_e_ihpfv"/></title>
 
         <mediaobject>
           <imageobject>
@@ -3181,8 +3590,7 @@ think / rather than -1
 
       <para>Compound channels are open channels with cross-sections which have
       berms or floodplains adjacent to a main channel that convey water at
-      stages which exceed the bankfull depth as shown in <xref
-      linkend="b6_ch2_f_dbjth"/>.</para>
+      stages which exceed the bankfull depth as shown in <xref linkend="b6_ch2_f_dbjth"/>.</para>
 
       <figure xml:id="b6_ch2_f_dbjth">
         <title>Typical compound channel with floodplains of greater roughness
@@ -3210,7 +3618,7 @@ think / rather than -1
         be used for compound channels by employing <xref linkend="b6_ch2_e_0f7pu"/>.</para>
 
       <equation xml:id="b6_ch2_e_0f7pu">
-        <math display='block' xmlns="http://www.w3.org/1998/Math/MathML">
+        <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
           <msub>
             <mi>n</mi>
             <mi>e</mi>
@@ -3220,7 +3628,7 @@ think / rather than -1
               <mrow>
                 <mfrac>
                   <mrow>
-                    <mstyle displaystyle='true'>
+                    <mstyle displaystyle="true">
                       <munderover>
                         <mo>&#x2211;</mo>
                         <mrow>
@@ -3259,8 +3667,7 @@ think / rather than -1
       <para>where P is the total wetted perimeter, P<subscript>j</subscript> is the length of wetted
         perimeter associated with n<subscript>j</subscript> and N is the number of different
         roughnesses. Both <citation>b6_c2_r39+1</citation> and <citation>b6_c2_r142+1</citation>
-        assumed that the water area is divided imaginatively into N parts (see <xref
-          linkend="b6_ch2_f_ltod1"/>) for each different roughness. They then assumed that each part
+        assumed that the water area is divided imaginatively into N parts (see <xref linkend="b6_ch2_f_ltod1"/>) for each different roughness. They then assumed that each part
         had the same velocity which is also equal to the average velocity of the whole section (ie.
           u<subscript>1</subscript>= u<subscript>2</subscript> = u<subscript>3</subscript> =
         u).</para>
@@ -3331,7 +3738,7 @@ think / rather than -1
               </msup>
             </mrow>
             <mrow>
-              <mstyle displaystyle='true'>
+              <mstyle displaystyle="true">
                 <munderover>
                   <mo>&#x2211;</mo>
                   <mrow>
@@ -3615,8 +4022,7 @@ think / rather than -1
       </listitem>
     </itemizedlist>
 
-    <para><xref linkend="b6_ch2_t_j28ed"/> contains the bedslope and depth classifications.<table
-        frame="void" xml:id="b6_ch2_t_j28ed">
+    <para><xref linkend="b6_ch2_t_j28ed"/> contains the bedslope and depth classifications.<table frame="void" xml:id="b6_ch2_t_j28ed">
         <caption>Gradually varied flow classification system (modified from table on p35 of
             <citation>b6_c2_r31+1</citation>)</caption>
         <col width="10%"/>
@@ -3802,8 +4208,7 @@ think / rather than -1
         </tbody>
       </table></para>
 
-    <para>The 12 gradually varied flow profiles are illustrated in <xref
-    linkend="b6_ch2_f_j389h"/>.</para>
+    <para>The 12 gradually varied flow profiles are illustrated in <xref linkend="b6_ch2_f_j389h"/>.</para>
 
     <para>The 12 generic profiles are curves of increasing or decreasing curvature in either the
       downstream or upstream direction. When some simplifying assumptions are made
@@ -3820,8 +4225,7 @@ think / rather than -1
     the computations proceed in one direction (be it downstream or upstream),
     the flow curvature continuously increases or decreases.</para>
 
-    <para>All the water surface profiles schematised in <xref
-    linkend="b6_ch2_f_j389h"/> can be classified as a backwater curve or a
+    <para>All the water surface profiles schematised in <xref linkend="b6_ch2_f_j389h"/> can be classified as a backwater curve or a
     drawdown curve:</para>
 
     <itemizedlist>
@@ -3864,8 +4268,7 @@ think / rather than -1
         <para>the standard step method.</para>
       </listitem>
     </itemizedlist>
-    <para>A brief comparison of the two methods can be seen in <xref linkend="b6_ch2_t_jwbn2"
-      />.</para>
+    <para>A brief comparison of the two methods can be seen in <xref linkend="b6_ch2_t_jwbn2"/>.</para>
     <para>
       <table frame="void" xml:id="b6_ch2_t_jwbn2">
         <caption>Comparison of the direct step and standard step methods</caption>
@@ -4060,9 +4463,7 @@ think / rather than -1
       <para>= specific head or specific energy (m) x = co-ordinate in downstream direction
         (m)</para>
       <para>It is conventional to choose the x−coordinate such that it increases in the downstream
-        direction, irrespective of whether the flow is subcritical or supercritical. When <xref
-          linkend="b6_ch2_e_m23y6"/> is recast in a finite difference form, <xref
-          linkend="b6_ch2_e_m23y6"/> becomes:</para>
+        direction, irrespective of whether the flow is subcritical or supercritical. When <xref linkend="b6_ch2_e_m23y6"/> is recast in a finite difference form, <xref linkend="b6_ch2_e_m23y6"/> becomes:</para>
       <equation xml:id="b6_ch2_e_jwzu6">
         <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
           <mfrac>
@@ -4161,7 +4562,7 @@ think / rather than -1
             <mrow>
               <msup>
                 <mrow>
-                  <mo stretchy='false'>(</mo><mi>n</mi><mi>v</mi><mo stretchy='false'>)</mo></mrow>
+                  <mo stretchy="false">(</mo><mi>n</mi><mi>v</mi><mo stretchy="false">)</mo></mrow>
                 <mn>2</mn>
               </msup>
             </mrow>
@@ -4215,8 +4616,7 @@ think / rather than -1
         properties at x<subscript>1</subscript> are known, the computation of the specific energy
         and friction slope at this location cannot (in principle) proceed. The requirement imposed
         by the direct step method is therefore that the channel be prismatic.</para>
-      <para>Since the direct step method is explicit, no iteration is needed. The solution of <xref
-          linkend="b6_ch2_e_nq0ml"/> is straightforward and easily executed in tabular form on a
+      <para>Since the direct step method is explicit, no iteration is needed. The solution of <xref linkend="b6_ch2_e_nq0ml"/> is straightforward and easily executed in tabular form on a
         spreadsheet.</para>
     </section>
     <section xml:id="b6_ch2_s_kft5b">
@@ -4238,11 +4638,8 @@ think / rather than -1
         </mediaobject>
       </figure>
       <para>In the standard step method, the aim is to satisfy the two expressions below
-          <?oxy_insert_start author="ward" timestamp="20160623T153852+1000"?>(<?oxy_insert_end?><xref
-          linkend="b6_ch2_e_qr7i7"
-        /><?oxy_insert_start author="ward" timestamp="20160623T153828+1000"?> and
-          <?oxy_insert_end?><xref linkend="b6_ch2_e_075fm"
-        /><?oxy_insert_start author="ward" timestamp="20160623T153855+1000"?>)<?oxy_insert_end?>,
+          <?oxy_insert_start author="ward" timestamp="20160623T153852+1000"?>(<?oxy_insert_end?><xref linkend="b6_ch2_e_qr7i7"/><?oxy_insert_start author="ward" timestamp="20160623T153828+1000"?> and
+          <?oxy_insert_end?><xref linkend="b6_ch2_e_075fm"/><?oxy_insert_start author="ward" timestamp="20160623T153855+1000"?>)<?oxy_insert_end?>,
         and this will only happen when the correct unknown depth y<subscript>1</subscript> has been
         determined. The depth y<subscript>2</subscript> is known for sub-critical flow (reversed for
         sueprcritical flow). Because the unknown depth y<subscript>1</subscript> is needed for the
@@ -4329,7 +4726,7 @@ think / rather than -1
             <mrow>
               <msup>
                 <mrow>
-                  <mo stretchy='false'>(</mo><mi>n</mi><mi>Q</mi><mo stretchy='false'>)</mo></mrow>
+                  <mo stretchy="false">(</mo><mi>n</mi><mi>Q</mi><mo stretchy="false">)</mo></mrow>
                 <mn>2</mn>
               </msup>
             </mrow>
@@ -4442,7 +4839,7 @@ think / rather than -1
             <mi>y</mi>
             <mn>1</mn>
           </msub>
-          <mo stretchy='false'>)</mo><mo>&#x2248;</mo><msup>
+          <mo stretchy="false">)</mo><mo>&#x2248;</mo><msup>
             <mrow><mo>(</mo>
               <mrow>
                 <msub>
@@ -4496,8 +4893,7 @@ think / rather than -1
         
       </equation>
       <para>where. . . H<subscript>E</subscript> = error or difference between the two values of
-          H<subscript>1</subscript> in <xref linkend="b6_ch2_e_qr7i7"/> and <xref
-          linkend="b6_ch2_e_075fm"/></para>
+          H<subscript>1</subscript> in <xref linkend="b6_ch2_e_qr7i7"/> and <xref linkend="b6_ch2_e_075fm"/></para>
       <equation xml:id="b6_ch2_e_68hvc">
         <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
           <mo>=</mo><mrow><mo>[</mo> <mrow>
@@ -4574,14 +4970,14 @@ think / rather than -1
           <mtext>(average&#x00A0;conveyance)&#x00A0;</mtext><msub>
             <mrow><mo>(</mo>
               <mrow>
-                <mover accent='true'>
+                <mover accent="true">
                   <mrow>
                     <msub>
                       <mi>S</mi>
                       <mi>f</mi>
                     </msub>
                   </mrow>
-                  <mo stretchy='true'>&#x00AF;</mo>
+                  <mo stretchy="true">&#x00AF;</mo>
                 </mover>
               </mrow>
               <mo>)</mo></mrow>
@@ -4598,21 +4994,20 @@ think / rather than -1
           </msup>
           
         </math>
-        
       </equation>
-      <equation>
+      <equation xml:id="b6_ch2_e_avza2">
         <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
           <mtext>(arithmetic&#x00A0;mean)&#x00A0;</mtext><msub>
             <mrow><mo>(</mo>
               <mrow>
-                <mover accent='true'>
+                <mover accent="true">
                   <mrow>
                     <msub>
                       <mi>S</mi>
                       <mi>f</mi>
                     </msub>
                   </mrow>
-                  <mo stretchy='true'>&#x00AF;</mo>
+                  <mo stretchy="true">&#x00AF;</mo>
                 </mover>
               </mrow>
               <mo>)</mo></mrow>
@@ -4651,19 +5046,19 @@ think / rather than -1
         </math>
         
       </equation>
-      <equation>
+      <equation xml:id="b6_ch2_e_avzb3">
         <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
           <mtext>(geometric&#x00A0;mean)&#x00A0;</mtext><msub>
             <mrow><mo>(</mo>
               <mrow>
-                <mover accent='true'>
+                <mover accent="true">
                   <mrow>
                     <msub>
                       <mi>S</mi>
                       <mi>f</mi>
                     </msub>
                   </mrow>
-                  <mo stretchy='true'>&#x00AF;</mo>
+                  <mo stretchy="true">&#x00AF;</mo>
                 </mover>
               </mrow>
               <mo>)</mo></mrow>
@@ -4701,19 +5096,19 @@ think / rather than -1
         </math>
         
       </equation>
-      <equation>
+      <equation xml:id="b6_ch2_e_avzc3">
         <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
           <mtext>(harmonic&#x00A0;mean)&#x00A0;</mtext><msub>
             <mrow><mo>(</mo>
               <mrow>
-                <mover accent='true'>
+                <mover accent="true">
                   <mrow>
                     <msub>
                       <mi>S</mi>
                       <mi>f</mi>
                     </msub>
                   </mrow>
-                  <mo stretchy='true'>&#x00AF;</mo>
+                  <mo stretchy="true">&#x00AF;</mo>
                 </mover>
               </mrow>
               <mo>)</mo></mrow>
@@ -4757,11 +5152,11 @@ think / rather than -1
         </math>
         
       </equation>
-      <equation>
+      <equation xml:id="b6_ch2_e_avzd5">
         <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
-          <mtext>where</mtext><mn>...</mn><mtext>&#x00A0;</mtext><mover accent='true'>
+          <mtext>where</mtext><mn>...</mn><mtext>&#x00A0;</mtext><mover accent="true">
             <mi>v</mi>
-            <mo stretchy='true'>&#x00AF;</mo>
+            <mo stretchy="true">&#x00AF;</mo>
           </mover>
           <mo>=</mo><mfrac>
             <mn>1</mn>
@@ -4988,8 +5383,7 @@ think / rather than -1
       Unsteady Flow in an Open Channel</title>
 
       <para>For the control volume shown in <xref linkend="b6_ch2_f_c9ye3"/> the continuity equation
-        can be derived using <xref linkend="b6_ch2_e_j4gec"/> where <emphasis role="italic"
-          >M</emphasis> is the mass of the system of particles instantaneously occupying the control
+        can be derived using <xref linkend="b6_ch2_e_j4gec"/> where <emphasis role="italic">M</emphasis> is the mass of the system of particles instantaneously occupying the control
         volume.</para>
 
       <equation xml:id="b6_ch2_e_j4gec">
@@ -5005,7 +5399,7 @@ think / rather than -1
             <mrow>
               <mo>&#x2202;</mo><mi>t</mi></mrow>
           </mfrac>
-          <mstyle displaystyle='true'>
+          <mstyle displaystyle="true">
             <mrow>
               <msub>
                 <mo>&#x222B;</mo>
@@ -5016,7 +5410,7 @@ think / rather than -1
                 <mi>&#x03C1;</mi><mi>d</mi></mrow>
             </mrow>
             
-          </mstyle><mi>&#x03D1;</mi><mo>+</mo><mstyle displaystyle='true'>
+          </mstyle><mi>&#x03D1;</mi><mo>+</mo><mstyle displaystyle="true">
             <mrow>
               <msub>
                 <mo>&#x222B;</mo>
@@ -5024,16 +5418,16 @@ think / rather than -1
                   <mi>c</mi><mi>&#x03D1;</mi></mrow>
               </msub>
               <mrow>
-                <mi>&#x03C1;</mi><mover accent='true'>
+                <mi>&#x03C1;</mi><mover accent="true">
                   <mi>v</mi>
-                  <mo stretchy='true'>&#x02DC;</mo>
+                  <mo stretchy="true">&#x02DC;</mo>
                 </mover>
               </mrow>
             </mrow>
             
-          </mstyle><mover accent='true'>
+          </mstyle><mover accent="true">
             <mi>d</mi>
-            <mo stretchy='true'>&#x02DC;</mo>
+            <mo stretchy="true">&#x02DC;</mo>
           </mover>
           <mi>A</mi>
         </math>
@@ -5149,7 +5543,7 @@ think / rather than -1
 
       <equation xml:id="b6_ch2_e_1vix9">
         <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
-          <mstyle displaystyle='true'>
+          <mstyle displaystyle="true">
             <mo>&#x2211;</mo> <mrow>
               <msub>
                 <mi>F</mi>
@@ -5161,7 +5555,7 @@ think / rather than -1
             <mrow>
               <mo>&#x2202;</mo><mi>t</mi></mrow>
           </mfrac>
-          <mstyle displaystyle='true'>
+          <mstyle displaystyle="true">
             <mrow>
               <msub>
                 <mo>&#x222B;</mo>
@@ -5176,7 +5570,7 @@ think / rather than -1
                 <mi>d</mi></mrow>
             </mrow>
             
-          </mstyle><mi>&#x03D1;</mi><mo>+</mo><mstyle displaystyle='true'>
+          </mstyle><mi>&#x03D1;</mi><mo>+</mo><mstyle displaystyle="true">
             <mrow>
               <msub>
                 <mo>&#x222B;</mo>
@@ -5188,16 +5582,16 @@ think / rather than -1
                   <mi>v</mi>
                   <mi>x</mi>
                 </msub>
-                <mover accent='true'>
+                <mover accent="true">
                   <mi>v</mi>
-                  <mo stretchy='true'>&#x02DC;</mo>
+                  <mo stretchy="true">&#x02DC;</mo>
                 </mover>
               </mrow>
             </mrow>
             
-          </mstyle><mover accent='true'>
+          </mstyle><mover accent="true">
             <mi>d</mi>
-            <mo stretchy='true'>&#x02DC;</mo>
+            <mo stretchy="true">&#x02DC;</mo>
           </mover>
           <mi>A</mi><mo>=</mo><mn>0</mn>
         </math>
@@ -5205,8 +5599,7 @@ think / rather than -1
       </equation>
 
       <para>where ∑F<subscript>x</subscript> is the sum of the external forces
-      acting in the x-direction on the control volume in <xref
-      linkend="b6_ch2_f_c9ye3"/> and v<subscript>x</subscript> is the velocity
+      acting in the x-direction on the control volume in <xref linkend="b6_ch2_f_c9ye3"/> and v<subscript>x</subscript> is the velocity
       in the x-direction. By considering all the external forces acting on the
       system and evaluating the volume and surface integral terms on the right
       side of <xref linkend="b6_ch2_e_1vix9"/> yields:</para>
@@ -5232,7 +5625,7 @@ think / rather than -1
             <mrow>
               <mo>&#x2202;</mo><mi>t</mi></mrow>
           </mfrac>
-          <mo stretchy='false'>(</mo><mi>A</mi><mi>V</mi><mo stretchy='false'>)</mo><mi>&#x03C1;</mi><mi>d</mi><mi>x</mi><mo>+</mo><mfrac>
+          <mo stretchy="false">(</mo><mi>A</mi><mi>V</mi><mo stretchy="false">)</mo><mi>&#x03C1;</mi><mi>d</mi><mi>x</mi><mo>+</mo><mfrac>
             <mo>&#x2202;</mo>
             <mrow>
               <mo>&#x2202;</mo><mi>t</mi></mrow>
@@ -5261,8 +5654,7 @@ think / rather than -1
             <mi>d</mi>
             <mi>x</mi>
           </math>
-        </inlineequation> and expanding the derivative terms on the right-hand side, <xref
-          linkend="b6_ch2_e_lqova"/> produces:</para>
+        </inlineequation> and expanding the derivative terms on the right-hand side, <xref linkend="b6_ch2_e_lqova"/> produces:</para>
 
       <equation xml:id="b6_ch2_e_f561a">
         <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -5333,8 +5725,7 @@ think / rather than -1
         
       </equation>
 
-      <para>However, many of the individual terms in <xref
-      linkend="b6_ch2_e_f561a"/> can be replaced by more convenient forms. For
+      <para>However, many of the individual terms in <xref linkend="b6_ch2_e_f561a"/> can be replaced by more convenient forms. For
       example:</para>
 
       <equation xml:id="b6_ch2_e_t0jbw">
@@ -5473,7 +5864,7 @@ think / rather than -1
             <mrow>
               <mo>&#x2202;</mo><mi>t</mi></mrow>
           </mfrac>
-          <mo>+</mo><mo stretchy='false'>(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy='false'>)</mo><mi>V</mi><mfrac>
+          <mo>+</mo><mo stretchy="false">(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy="false">)</mo><mi>V</mi><mfrac>
             <mrow>
               <mo>&#x2202;</mo><mi>A</mi></mrow>
             <mrow>
@@ -5484,8 +5875,7 @@ think / rather than -1
         
       </equation>
 
-      <para><xref linkend="b6_ch2_e_f561a"/> can be rearranged after substitution of <xref
-          linkend="b6_ch2_e_t0jbw"/> to <xref linkend="b6_ch2_e_bnkwb"/> and
+      <para><xref linkend="b6_ch2_e_f561a"/> can be rearranged after substitution of <xref linkend="b6_ch2_e_t0jbw"/> to <xref linkend="b6_ch2_e_bnkwb"/> and
           S<subscript>f</subscript> for the friction slope to give <xref linkend="b6_ch2_e_nu0ak"/>
         below:</para>
 
@@ -5522,7 +5912,7 @@ think / rather than -1
                 <mrow>
                   <mo>&#x2202;</mo><mi>t</mi></mrow>
               </mfrac>
-              <mo>+</mo><mo stretchy='false'>(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy='false'>)</mo><mi>V</mi><mfrac>
+              <mo>+</mo><mo stretchy="false">(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy="false">)</mo><mi>V</mi><mfrac>
                 <mrow>
                   <mo>&#x2202;</mo><mi>A</mi></mrow>
                 <mrow>
@@ -5618,7 +6008,7 @@ think / rather than -1
           </mfrac>
           <mo>+</mo><mfrac>
             <mrow>
-              <mo stretchy='false'>(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy='false'>)</mo></mrow>
+              <mo stretchy="false">(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy="false">)</mo></mrow>
             <mrow>
               <mi>g</mi><mi>A</mi></mrow>
           </mfrac>
@@ -5684,7 +6074,7 @@ think / rather than -1
         <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
           <mi>&#x03B2;</mi><mo>=</mo><mfrac>
             <mrow>
-              <mstyle displaystyle='true'>
+              <mstyle displaystyle="true">
                 <mrow><mo>&#x222B;</mo>
                   <mrow>
                     <msup>
@@ -5716,7 +6106,7 @@ think / rather than -1
       <title>Why is the time step so important?</title>
 
       <para>Often these equations are solved using finite difference, finite
-      element or more commonly now <?oxy_comment_start author="ward" timestamp="20151127T115225+1100" comment="Does this imply finite vol is the most common of all Maybe"?>finite<?oxy_comment_end ?>
+      element or more commonly now <?oxy_comment_start author="ward" timestamp="20151127T115225+1100" comment="Does this imply finite vol is the most common of all Maybe"?>finite<?oxy_comment_end?>
       volume methods. As these are a hyperbolic system of partial differential
       equations, very similar to the wave equations consideration must be
       given to the time step that is used in the computational scheme for both
@@ -5726,8 +6116,7 @@ think / rather than -1
 
       <para>The unsteady momentum equation can be converted into a total
       differential equation using the method of characteristics. While the
-      steady form of the momentum equation can be obtained from <xref
-      linkend="b6_ch2_e_aas46"/> the transformation to a system of total
+      steady form of the momentum equation can be obtained from <xref linkend="b6_ch2_e_aas46"/> the transformation to a system of total
       differential equations will be carried out for later use.</para>
 
       <para>The method of characteristics allows two partial differential equations to be combined
@@ -5773,8 +6162,7 @@ think / rather than -1
 
       <para>where <emphasis>L</emphasis><subscript>1</subscript> and
           <emphasis>L</emphasis><subscript>2</subscript> are equal to the unsteady momentum function
-          (<xref linkend="b6_ch2_e_aas46"/>) and continuity relation (<xref linkend="b6_ch2_e_uleyc"
-        />) respectively as shown below:</para>
+          (<xref linkend="b6_ch2_e_aas46"/>) and continuity relation (<xref linkend="b6_ch2_e_uleyc"/>) respectively as shown below:</para>
 
       <equation xml:id="b6_ch2_e_8se8o">
         <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -5794,7 +6182,7 @@ think / rather than -1
           </mfrac>
           <mo>+</mo><mfrac>
             <mrow>
-              <mo stretchy='false'>(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy='false'>)</mo></mrow>
+              <mo stretchy="false">(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy="false">)</mo></mrow>
             <mrow>
               <mi>g</mi><mi>A</mi></mrow>
           </mfrac>
@@ -5885,8 +6273,7 @@ think / rather than -1
         
       </equation>
 
-      <para>Substituting <xref linkend="b6_ch2_e_8se8o"/> and <xref
-      linkend="b6_ch2_e_vdki9"/> into <xref linkend="b6_ch2_e_3z4h1"/>
+      <para>Substituting <xref linkend="b6_ch2_e_8se8o"/> and <xref linkend="b6_ch2_e_vdki9"/> into <xref linkend="b6_ch2_e_3z4h1"/>
       yields:</para>
 
       <equation xml:id="b6_ch2_e_ql8pk">
@@ -5903,7 +6290,7 @@ think / rather than -1
           </mfrac>
           <mo>+</mo><mfrac>
             <mrow>
-              <mo stretchy='false'>(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy='false'>)</mo></mrow>
+              <mo stretchy="false">(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy="false">)</mo></mrow>
             <mrow>
               <mi>g</mi><mi>A</mi></mrow>
           </mfrac>
@@ -6066,7 +6453,7 @@ think / rather than -1
               <mrow>
                 <mfrac>
                   <mrow>
-                    <mo stretchy='false'>(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy='false'>)</mo><mi>V</mi></mrow>
+                    <mo stretchy="false">(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy="false">)</mo><mi>V</mi></mrow>
                   <mrow>
                     <msub>
                       <mi>&#x03BB;</mi>
@@ -6532,8 +6919,7 @@ think / rather than -1
       </equation>
 
       <para>This leads to the following total differential equations by
-      equating <xref linkend="b6_ch2_e_o8hgz"/> with <xref
-      linkend="b6_ch2_e_1u3ru"/>.</para>
+      equating <xref linkend="b6_ch2_e_o8hgz"/> with <xref linkend="b6_ch2_e_1u3ru"/>.</para>
 
       <equation xml:id="b6_ch2_e_3mupi">
         <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -6555,7 +6941,7 @@ think / rather than -1
               </msub>
               <mo>+</mo><mfrac>
                 <mrow>
-                  <mo stretchy='false'>(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy='false'>)</mo><mi>V</mi></mrow>
+                  <mo stretchy="false">(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy="false">)</mo><mi>V</mi></mrow>
                 <mrow>
                   <mi>g</mi><mi>A</mi></mrow>
               </mfrac>
@@ -6635,7 +7021,7 @@ think / rather than -1
                   <mi>&#x03BB;</mi>
                   <mi>m</mi>
                 </msub>
-                <mi>g</mi><mi>A</mi><mo>+</mo><mo stretchy='false'>(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy='false'>)</mo><mi>V</mi></mrow>
+                <mi>g</mi><mi>A</mi><mo>+</mo><mo stretchy="false">(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy="false">)</mo><mi>V</mi></mrow>
             </mfrac>
           
         </math>
@@ -6662,7 +7048,7 @@ think / rather than -1
                 <mi>&#x03BB;</mi>
                 <mi>m</mi>
               </msub>
-              <mi>g</mi><mi>A</mi><mo>+</mo><mo stretchy='false'>(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy='false'>)</mo><mi>V</mi></mrow>
+              <mi>g</mi><mi>A</mi><mo>+</mo><mo stretchy="false">(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy="false">)</mo><mi>V</mi></mrow>
             <mo>)</mo></mrow><mrow><mo>(</mo>
               <mrow>
                 <mi>&#x03B2;</mi><mi>V</mi><mo>+</mo><msub>
@@ -6736,7 +7122,7 @@ think / rather than -1
             <mi>A</mi>
             <mn>2</mn>
           </msup>
-          <mo>+</mo><mo stretchy='false'>(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy='false'>)</mo><mi>&#x03B2;</mi><msup>
+          <mo>+</mo><mo stretchy="false">(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy="false">)</mo><mi>&#x03B2;</mi><msup>
             <mi>V</mi>
             <mn>2</mn>
           </msup>
@@ -6744,7 +7130,7 @@ think / rather than -1
             <mi>&#x03BB;</mi>
             <mi>m</mi>
           </msub>
-          <mi>g</mi><mi>A</mi><mo stretchy='false'>(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy='false'>)</mo><mi>V</mi><mo>=</mo><msub>
+          <mi>g</mi><mi>A</mi><mo stretchy="false">(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy="false">)</mo><mi>V</mi><mo>=</mo><msub>
             <mi>&#x03BB;</mi>
             <mi>m</mi>
           </msub>
@@ -6802,7 +7188,7 @@ think / rather than -1
               <mi>g</mi><mi>A</mi></mrow>
             <mi>T</mi>
           </mfrac>
-          <mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy='false'>(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy='false'>)</mo><msup>
+          <mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy="false">(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy="false">)</mo><msup>
             <mi>V</mi>
             <mn>2</mn>
           </msup>
@@ -6839,7 +7225,7 @@ think / rather than -1
                   <mi>g</mi><mi>A</mi></mrow>
                 <mi>T</mi>
               </mfrac>
-              <mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy='false'>(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy='false'>)</mo><msup>
+              <mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy="false">(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy="false">)</mo><msup>
                 <mi>V</mi>
                 <mn>2</mn>
               </msup>
@@ -6953,8 +7339,7 @@ think / rather than -1
         
       </equation>
 
-      <para>The method of characteristics when applied to <xref
-      linkend="b6_ch2_e_uleyc"/> and <xref linkend="b6_ch2_e_aas46"/>
+      <para>The method of characteristics when applied to <xref linkend="b6_ch2_e_uleyc"/> and <xref linkend="b6_ch2_e_aas46"/>
       transform these two partial differential equations into the following
       system of total differential equations.</para>
 
@@ -7199,8 +7584,7 @@ think / rather than -1
           </math>
         </inlineequation>) on the right hand side of <xref linkend="b6_ch2_e_nq8pl"/> is smaller
         than the square root term. This case represents subcritical flow and the disturbances travel
-        in both upstream and downstream directions. For critical flow, both terms of <xref
-          linkend="b6_ch2_e_nq8pl"/> are equal. This physically based criterion may be used to
+        in both upstream and downstream directions. For critical flow, both terms of <xref linkend="b6_ch2_e_nq8pl"/> are equal. This physically based criterion may be used to
         determine the occurrence of critical flow, since it shows whether the flow control is
         located at an upstream or downstream location. The Froude number, which is so important in
         determining the flow type (subcritical, supercritical, and critical) is the ratio of the
@@ -7238,10 +7622,8 @@ think / rather than -1
     <section xml:id="b6_ch2_s_di5mn">
       <title>Steady Flow Equations</title>
 
-      <para>The unsteady momentum equation (see <xref
-      linkend="b6_ch2_e_aas46"/>) can be reduced to the steady form of the
-      equation by eliminating the time derivative terms from <xref
-      linkend="b6_ch2_e_5c7qc"/> as shown:</para>
+      <para>The unsteady momentum equation (see <xref linkend="b6_ch2_e_aas46"/>) can be reduced to the steady form of the
+      equation by eliminating the time derivative terms from <xref linkend="b6_ch2_e_5c7qc"/> as shown:</para>
 
       <equation xml:id="b6_ch2_e_5c7qc">
         <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -7464,9 +7846,7 @@ think / rather than -1
             </mfrac>
           </math>
         </inlineequation> determining for steady gradually varied flow using the momentum approach
-          (<xref linkend="b6_ch2_e_xgt4t"/>) is obtained by the substitution of <xref
-          linkend="b6_ch2_e_4gp8z"/> and <xref linkend="b6_ch2_e_h49zv"/> into <xref
-          linkend="b6_ch2_e_5c7qc"/> and rearranging to give:</para>
+          (<xref linkend="b6_ch2_e_xgt4t"/>) is obtained by the substitution of <xref linkend="b6_ch2_e_4gp8z"/> and <xref linkend="b6_ch2_e_h49zv"/> into <xref linkend="b6_ch2_e_5c7qc"/> and rearranging to give:</para>
 
       <equation xml:id="b6_ch2_e_4wxqe">
         <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -7637,8 +8017,7 @@ think / rather than -1
       </equation>
 
       <para>Note <xref linkend="b6_ch2_e_xgt4t"/> includes the derivative of the momentum flux
-        correction coefficient. Similarly for the unsteady energy equation (<xref
-          linkend="b6_ch2_e_0fmyc"/>):</para>
+        correction coefficient. Similarly for the unsteady energy equation (<xref linkend="b6_ch2_e_0fmyc"/>):</para>
 
       <equation xml:id="b6_ch2_e_0fmyc">
         <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -7738,8 +8117,7 @@ think / rather than -1
             </mfrac>
           </math>
         </inlineequation> for steady gradually varied flow (<xref linkend="b6_ch2_e_x6jwy"/>) after
-        some rearrangement as shown in <xref linkend="b6_ch2_e_d32cw"/> and <xref
-          linkend="b6_ch2_e_yji6z"/>.</para>
+        some rearrangement as shown in <xref linkend="b6_ch2_e_d32cw"/> and <xref linkend="b6_ch2_e_yji6z"/>.</para>
 
       <equation xml:id="b6_ch2_e_d32cw">
         <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -7861,7 +8239,7 @@ think / rather than -1
       </equation>
 
       <equation xml:id="b6_ch2_e_x6jwy">
-        <math display='block' xmlns="http://www.w3.org/1998/Math/MathML">
+        <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
           <semantics>
             <mrow>
               <mfrac>
@@ -8043,8 +8421,7 @@ think / rather than -1
             <mo>=</mo>
             <mn>0</mn>
           </math>
-        </inlineequation>. From <xref linkend="b6_ch2_e_1kd4n"/> and <xref linkend="b6_ch2_e_x6jwy"
-        /> it can be seen that this only occurs when S<subscript>0</subscript> =
+        </inlineequation>. From <xref linkend="b6_ch2_e_1kd4n"/> and <xref linkend="b6_ch2_e_x6jwy"/> it can be seen that this only occurs when S<subscript>0</subscript> =
           S<subscript>f</subscript> = S<subscript>e</subscript>.</para>
     </section>
   </section>
@@ -8061,7 +8438,7 @@ think / rather than -1
     as shown in <xref linkend="b6_ch2_f_5rf6u"/>.</para>
 
     <figure xml:id="b6_ch2_f_5rf6u">
-      <title>Definition of <?oxy_comment_start author="ward" timestamp="20151127T155031+1100" comment="Not sure the symbols are consistent with rest of chapter – check "?>symbols<?oxy_comment_end ?></title>
+      <title>Definition of <?oxy_comment_start author="ward" timestamp="20151127T155031+1100" comment="Not sure the symbols are consistent with rest of chapter – check "?>symbols<?oxy_comment_end?></title>
 
       <mediaobject>
         <imageobject>
@@ -8076,12 +8453,10 @@ think / rather than -1
     <emphasis role="italic">(m).</emphasis></para>
 
     <para><emphasis role="italic">u</emphasis>: is the depth-averaged velocity
-    in the <emphasis role="italic">x</emphasis> direction <emphasis
-    role="italic">(m/s)</emphasis></para>
+    in the <emphasis role="italic">x</emphasis> direction <emphasis role="italic">(m/s)</emphasis></para>
 
     <para><emphasis role="italic">v</emphasis>: is the depth-averaged velocity
-    in the <emphasis role="italic">y</emphasis> direction <emphasis
-    role="italic">(m/s)</emphasis></para>
+    in the <emphasis role="italic">y</emphasis> direction <emphasis role="italic">(m/s)</emphasis></para>
 
     <para>These are described as a function of the three main independent
     variables:</para>
@@ -8092,11 +8467,9 @@ think / rather than -1
     <para><emphasis role="italic">y:</emphasis> the horizontal distance in the
     y direction (<emphasis role="italic">m</emphasis>)</para>
 
-    <para><emphasis role="italic">t:</emphasis> the time (<emphasis
-    role="italic">s</emphasis>)</para>
+    <para><emphasis role="italic">t:</emphasis> the time (<emphasis role="italic">s</emphasis>)</para>
 
-    <para>Additionally, the time varying water depth at any location <emphasis
-    role="italic">d(x,y), </emphasis>can be expressed as:</para>
+    <para>Additionally, the time varying water depth at any location <emphasis role="italic">d(x,y), </emphasis>can be expressed as:</para>
 
     <para>where:</para>
 
@@ -8129,13 +8502,13 @@ think / rather than -1
           </mfrac>
           <mo>+</mo><mfrac>
             <mrow>
-              <mo>&#x2202;</mo><mo stretchy='false'>(</mo><mi>d</mi><mo>.</mo><mi>u</mi><mo stretchy='false'>)</mo></mrow>
+              <mo>&#x2202;</mo><mo stretchy="false">(</mo><mi>d</mi><mo>.</mo><mi>u</mi><mo stretchy="false">)</mo></mrow>
             <mrow>
               <mo>&#x2202;</mo><mi>x</mi></mrow>
           </mfrac>
           <mo>+</mo><mfrac>
             <mrow>
-              <mo>&#x2202;</mo><mo stretchy='false'>(</mo><mi>d</mi><mo>.</mo><mi>v</mi><mo stretchy='false'>)</mo></mrow>
+              <mo>&#x2202;</mo><mo stretchy="false">(</mo><mi>d</mi><mo>.</mo><mi>v</mi><mo stretchy="false">)</mo></mrow>
             <mrow>
               <mo>&#x2202;</mo><mi>y</mi></mrow>
           </mfrac>
@@ -8275,10 +8648,9 @@ think / rather than -1
       <para>The equations presented above are in the primitive, Eulerian form. The same equations
         can exist in other forms; e.g. the conservation law form <citation>b6_c2_r1</citation> and
         the conservative-integral form <citation>b6_c2_r66</citation>.</para>
-      <para>Due to the symmetry between the two <emphasis role="italic">x</emphasis> and <emphasis
-          role="italic">y</emphasis> momentum equations, further discussion will be focused on the
+      <para>Due to the symmetry between the two <emphasis role="italic">x</emphasis> and <emphasis role="italic">y</emphasis> momentum equations, further discussion will be focused on the
         x-momentum equation only.</para> 
-      <equation>
+      <equation xml:id="b6_ch2_e_avzf6">
         <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
           <mfrac>
             <mrow>
@@ -8306,7 +8678,6 @@ think / rather than -1
           </mfrac>
           <mo>=</mo><mn>0</mn>
         </math>
-        
       </equation>
       <para>where:</para>
       <para><inlineequation>
@@ -8346,8 +8717,7 @@ think / rather than -1
               </mrow>
             </mfrac>
           </math>
-        </inlineequation> is the partial differential form of the flow acceleration <emphasis
-          role="italic">du/dt</emphasis></para>
+        </inlineequation> is the partial differential form of the flow acceleration <emphasis role="italic">du/dt</emphasis></para>
       <para><inlineequation>
           <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
             <mi>g</mi>
@@ -8387,10 +8757,8 @@ think / rather than -1
 
         <listitem>
           <para>The flow can be described by continuous (differentiable)
-          functions of ς, <emphasis role="italic">u</emphasis> and <emphasis
-          role="italic">v</emphasis> (that is, it does not include step
-          changes in ς, <emphasis role="italic">u</emphasis> and <emphasis
-          role="italic">v),</emphasis>The flow is two-dimensional (that is,
+          functions of ς, <emphasis role="italic">u</emphasis> and <emphasis role="italic">v</emphasis> (that is, it does not include step
+          changes in ς, <emphasis role="italic">u</emphasis> and <emphasis role="italic">v),</emphasis>The flow is two-dimensional (that is,
           the effects of vertical variations in the flow velocity can be
           neglected),</para>
         </listitem>
@@ -8419,8 +8787,7 @@ think / rather than -1
   <section xml:id="b6_ch2_s_9sffo">
     <title>Extension of the Equations for Modelling Applications</title>
 
-    <para>The 2D mass and momentum equations described in <xref
-    linkend="b6_ch2_s_jprsw"/> and <xref linkend="b6_ch2_s_fanxt"/> are
+    <para>The 2D mass and momentum equations described in <xref linkend="b6_ch2_s_jprsw"/> and <xref linkend="b6_ch2_s_fanxt"/> are
     sometimes referred to as the 2D “long wave” equations. These equations can
     be used to describe the behaviour of waves, including flood waves, which
     are long relative to the water depth.</para>
@@ -8449,13 +8816,13 @@ think / rather than -1
           </mfrac>
           <mo>+</mo><mfrac>
             <mrow>
-              <mo>&#x2202;</mo><mo stretchy='false'>(</mo><mi>d</mi><mo>.</mo><mi>u</mi><mo stretchy='false'>)</mo></mrow>
+              <mo>&#x2202;</mo><mo stretchy="false">(</mo><mi>d</mi><mo>.</mo><mi>u</mi><mo stretchy="false">)</mo></mrow>
             <mrow>
               <mo>&#x2202;</mo><mi>x</mi></mrow>
           </mfrac>
           <mo>+</mo><mfrac>
             <mrow>
-              <mo>&#x2202;</mo><mo stretchy='false'>(</mo><mi>d</mi><mo>.</mo><mi>v</mi><mo stretchy='false'>)</mo></mrow>
+              <mo>&#x2202;</mo><mo stretchy="false">(</mo><mi>d</mi><mo>.</mo><mi>v</mi><mo stretchy="false">)</mo></mrow>
             <mrow>
               <mo>&#x2202;</mo><mi>y</mi></mrow>
           </mfrac>
@@ -8625,8 +8992,7 @@ think / rather than -1
       (m<superscript>1/2</superscript>s<superscript>-1</superscript>)</para>
 
       <para>For practical modelling applications, the Chezy coefficient can be related to the more
-        usual (for Australian applications) Manning <emphasis role="italic">‘</emphasis>n’<emphasis
-          role="italic"> roughness coefficient </emphasis>by the Strickler relation, where:</para>
+        usual (for Australian applications) Manning <emphasis role="italic">‘</emphasis>n’<emphasis role="italic"> roughness coefficient </emphasis>by the Strickler relation, where:</para>
 
       <equation xml:id="b6_ch2_e_803zu">
         <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -8673,8 +9039,7 @@ think / rather than -1
       eddies, or in situations where it is necessary to model channel/overbank
       interactions.</para>
 
-      <para>Introducing a typical eddy viscosity formulation, the <emphasis
-      role="italic">x</emphasis> momentum equation becomes:</para>
+      <para>Introducing a typical eddy viscosity formulation, the <emphasis role="italic">x</emphasis> momentum equation becomes:</para>
 
       <equation xml:id="b6_ch2_e_euyzk">
         <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -8908,8 +9273,7 @@ think / rather than -1
       </equation>
 
       <para>This is analogous to a two-dimensional advection-diffusion equation describing the
-        transport and diffusion of <emphasis role="italic">u</emphasis>, the <emphasis role="italic"
-          >x</emphasis> velocity component. Continuing the analogy, the eddy viscosity coefficient
+        transport and diffusion of <emphasis role="italic">u</emphasis>, the <emphasis role="italic">x</emphasis> velocity component. Continuing the analogy, the eddy viscosity coefficient
           <emphasis role="italic">E</emphasis> becomes equivalent to the diffusion coefficient used
         in advection-diffusion modelling. Thus, as well as having wave propagation and transport
         properties the momentum equation can also have diffusion properties.</para>
@@ -9070,8 +9434,7 @@ think / rather than -1
       <para>As developed above, the final forms of the mass and momentum
       equations used in many 2D flood models can be expressed as:</para>
 
-      <para><emphasis role="bold"><emphasis
-      role="italic">Mass</emphasis></emphasis></para>
+      <para><emphasis role="bold"><emphasis role="italic">Mass</emphasis></emphasis></para>
 
       <equation xml:id="b6_ch2_e_7ray3">
         <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -9083,13 +9446,13 @@ think / rather than -1
           </mfrac>
           <mo>+</mo><mfrac>
             <mrow>
-              <mo>&#x2202;</mo><mo stretchy='false'>(</mo><mi>d</mi><mi>u</mi><mo stretchy='false'>)</mo></mrow>
+              <mo>&#x2202;</mo><mo stretchy="false">(</mo><mi>d</mi><mi>u</mi><mo stretchy="false">)</mo></mrow>
             <mrow>
               <mo>&#x2202;</mo><mi>x</mi></mrow>
           </mfrac>
           <mo>+</mo><mfrac>
             <mrow>
-              <mo>&#x2202;</mo><mo stretchy='false'>(</mo><mi>d</mi><mi>y</mi><mo stretchy='false'>)</mo></mrow>
+              <mo>&#x2202;</mo><mo stretchy="false">(</mo><mi>d</mi><mi>y</mi><mo stretchy="false">)</mo></mrow>
             <mrow>
               <mo>&#x2202;</mo><mi>y</mi></mrow>
           </mfrac>
@@ -9098,8 +9461,7 @@ think / rather than -1
         
       </equation>
 
-      <para><emphasis role="bold"><emphasis
-      role="italic">x-Momentum</emphasis></emphasis></para>
+      <para><emphasis role="bold"><emphasis role="italic">x-Momentum</emphasis></emphasis></para>
 
       <equation xml:id="b6_ch2_e_q32u9">
         <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -9185,8 +9547,7 @@ think / rather than -1
         
       </equation>
 
-      <para><emphasis role="bold"><emphasis
-      role="italic">y-Momentum</emphasis></emphasis></para>
+      <para><emphasis role="bold"><emphasis role="italic">y-Momentum</emphasis></emphasis></para>
 
       <equation xml:id="b6_ch2_e_rgv00">
         <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -9275,9 +9636,7 @@ think / rather than -1
       <para>This coupled system of equations provides the three equations
       necessary to solve for the three dependent variables; ς the free surface
       elevation, <emphasis role="italic">u</emphasis> the velocity in the
-      <emphasis role="italic">x</emphasis> direction and <emphasis
-      role="italic">v</emphasis> the velocity in the <emphasis
-      role="italic">y</emphasis> direction.</para>
+      <emphasis role="italic">x</emphasis> direction and <emphasis role="italic">v</emphasis> the velocity in the <emphasis role="italic">y</emphasis> direction.</para>
     </section>
 
     <section xml:id="b6_ch2_s_ayktu">
@@ -9421,8 +9780,7 @@ think / rather than -1
         <para>With this approximation, the convective momentum (momentum
         transport) terms are neglected. When these terms are neglected, the
         eddy viscosity (momentum dispersion) terms have little physical
-        meaning and can also be neglected. With this approach, the <emphasis
-        role="italic">x-</emphasis>momentum equation reduces to:</para>
+        meaning and can also be neglected. With this approach, the <emphasis role="italic">x-</emphasis>momentum equation reduces to:</para>
 
         <equation xml:id="b6_ch2_e_0bj84">
           <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -9479,9 +9837,7 @@ think / rather than -1
         <para><emphasis role="bold"><emphasis role="italic">The Steady State
         Momentum Equation</emphasis></emphasis></para>
 
-        <para>With this approximation, the local acceleration term <emphasis
-        role="italic">δu/δt</emphasis> is neglected and the <emphasis
-        role="italic">x-</emphasis>momentum equation reduces to:</para>
+        <para>With this approximation, the local acceleration term <emphasis role="italic">δu/δt</emphasis> is neglected and the <emphasis role="italic">x-</emphasis>momentum equation reduces to:</para>
 
         <equation xml:id="b6_ch2_e_aovm2">
           <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -9573,8 +9929,7 @@ think / rather than -1
         Approximation </emphasis></emphasis></para>
 
         <para>With this approximation, the convective momentum and eddy
-        viscosity terms are also neglected and the <emphasis
-        role="italic">x-</emphasis>momentum equation reduces to:</para>
+        viscosity terms are also neglected and the <emphasis role="italic">x-</emphasis>momentum equation reduces to:</para>
 
         <equation xml:id="b6_ch2_e_ebli7">
           <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -9624,8 +9979,7 @@ think / rather than -1
         Approximation </emphasis></emphasis></para>
 
         <para>With this approximation, the surface slope of the water is
-        assumed to be the same as the bed slope the <emphasis
-        role="italic">x-</emphasis>momentum equation further reduces
+        assumed to be the same as the bed slope the <emphasis role="italic">x-</emphasis>momentum equation further reduces
         to:</para>
 
         <equation xml:id="b6_ch2_e_zdym7">
@@ -9817,8 +10171,7 @@ think / rather than -1
       main problem in calculating turbulent flows and a turbulence model must be introduced which
       approximates the correlations and simulates the average character of real turbulence. The
       instantaneous values of velocity <emphasis>u</emphasis><subscript>i</subscript> and pressure
-        <emphasis>P</emphasis> are separated into mean and fluctuating components, as shown in <xref
-        linkend="b6_ch2_e_e15xj"/>.</para>
+        <emphasis>P</emphasis> are separated into mean and fluctuating components, as shown in <xref linkend="b6_ch2_e_e15xj"/>.</para>
 
     <equation xml:id="b6_ch2_e_3f1tp">
       <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -9826,23 +10179,23 @@ think / rather than -1
           <mi>u</mi>
           <mi>i</mi>
         </msub>
-        <mo>=</mo><mover accent='true'>
+        <mo>=</mo><mover accent="true">
           <mrow>
             <msub>
               <mi>u</mi>
               <mi>i</mi>
             </msub>
           </mrow>
-          <mo stretchy='true'>&#x00AF;</mo>
+          <mo stretchy="true">&#x00AF;</mo>
         </mover>
         <mo>+</mo><msubsup>
           <mi>u</mi>
           <mi>i</mi>
           <mo>&#x0027;</mo>
         </msubsup>
-        <mtext>&#x00A0;and&#x00A0;</mtext><mi>P</mi><mo>=</mo><mover accent='true'>
+        <mtext>&#x00A0;and&#x00A0;</mtext><mi>P</mi><mo>=</mo><mover accent="true">
           <mi>P</mi>
-          <mo stretchy='true'>&#x00AF;</mo>
+          <mo stretchy="true">&#x00AF;</mo>
         </mover>
         <mo>+</mo><mi>P</mi><mo>&#x0027;</mo>
       </math>
@@ -9870,7 +10223,7 @@ think / rather than -1
             </msub>
           </mrow>
         </mfrac>
-        <mstyle displaystyle='true'>
+        <mstyle displaystyle="true">
           <mrow>
             <msubsup>
               <mo>&#x222B;</mo>
@@ -9892,9 +10245,9 @@ think / rather than -1
                 <mi>u</mi>
                 <mi>i</mi>
               </msub>
-              <mi>d</mi><mi>t</mi><mtext>&#x00A0;and&#x00A0;</mtext><mover accent='true'>
+              <mi>d</mi><mi>t</mi><mtext>&#x00A0;and&#x00A0;</mtext><mover accent="true">
                 <mi>P</mi>
-                <mo stretchy='true'>&#x00AF;</mo>
+                <mo stretchy="true">&#x00AF;</mo>
               </mover>
               <mo>=</mo><mfrac>
                 <mn>1</mn>
@@ -9909,7 +10262,7 @@ think / rather than -1
                   </msub>
                 </mrow>
               </mfrac>
-              <mstyle displaystyle='true'>
+              <mstyle displaystyle="true">
                 <mrow>
                   <msubsup>
                     <mo>&#x222B;</mo>
@@ -9949,14 +10302,14 @@ think / rather than -1
       <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
         <mfrac>
           <mrow>
-            <mo>&#x2202;</mo><mover accent='true'>
+            <mo>&#x2202;</mo><mover accent="true">
               <mrow>
                 <msub>
                   <mi>u</mi>
                   <mi>i</mi>
                 </msub>
               </mrow>
-              <mo stretchy='true'>&#x00AF;</mo>
+              <mo stretchy="true">&#x00AF;</mo>
             </mover>
           </mrow>
           <mrow>
@@ -9978,51 +10331,51 @@ think / rather than -1
       <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
         <mfrac>
           <mrow>
-            <mo>&#x2202;</mo><mover accent='true'>
+            <mo>&#x2202;</mo><mover accent="true">
               <mi>u</mi>
-              <mo stretchy='true'>&#x00AF;</mo>
+              <mo stretchy="true">&#x00AF;</mo>
             </mover>
           </mrow>
           <mrow>
             <mo>&#x2202;</mo><mi>t</mi></mrow>
         </mfrac>
-        <mo>+</mo><mover accent='true'>
+        <mo>+</mo><mover accent="true">
           <mi>u</mi>
-          <mo stretchy='true'>&#x00AF;</mo>
+          <mo stretchy="true">&#x00AF;</mo>
         </mover>
         <mfrac>
           <mrow>
-            <mo>&#x2202;</mo><mover accent='true'>
+            <mo>&#x2202;</mo><mover accent="true">
               <mi>u</mi>
-              <mo stretchy='true'>&#x00AF;</mo>
+              <mo stretchy="true">&#x00AF;</mo>
             </mover>
           </mrow>
           <mrow>
             <mo>&#x2202;</mo><mi>x</mi></mrow>
         </mfrac>
-        <mo>+</mo><mover accent='true'>
+        <mo>+</mo><mover accent="true">
           <mi>v</mi>
-          <mo stretchy='true'>&#x00AF;</mo>
+          <mo stretchy="true">&#x00AF;</mo>
         </mover>
         <mfrac>
           <mrow>
-            <mo>&#x2202;</mo><mover accent='true'>
+            <mo>&#x2202;</mo><mover accent="true">
               <mi>u</mi>
-              <mo stretchy='true'>&#x00AF;</mo>
+              <mo stretchy="true">&#x00AF;</mo>
             </mover>
           </mrow>
           <mrow>
             <mo>&#x2202;</mo><mi>y</mi></mrow>
         </mfrac>
-        <mo>+</mo><mover accent='true'>
+        <mo>+</mo><mover accent="true">
           <mi>w</mi>
-          <mo stretchy='true'>&#x00AF;</mo>
+          <mo stretchy="true">&#x00AF;</mo>
         </mover>
         <mfrac>
           <mrow>
-            <mo>&#x2202;</mo><mover accent='true'>
+            <mo>&#x2202;</mo><mover accent="true">
               <mi>u</mi>
-              <mo stretchy='true'>&#x00AF;</mo>
+              <mo stretchy="true">&#x00AF;</mo>
             </mover>
           </mrow>
           <mrow>
@@ -10035,9 +10388,9 @@ think / rather than -1
         </mfrac>
         <mfrac>
           <mrow>
-            <mo>&#x2202;</mo><mover accent='true'>
+            <mo>&#x2202;</mo><mover accent="true">
               <mi>P</mi>
-              <mo stretchy='true'>&#x00AF;</mo>
+              <mo stretchy="true">&#x00AF;</mo>
             </mover>
           </mrow>
           <mrow>
@@ -10047,10 +10400,10 @@ think / rather than -1
           <mrow>
             <mfrac>
               <mrow>
-                <mo>&#x2202;</mo><mover accent='true'>
+                <mo>&#x2202;</mo><mover accent="true">
                   <mrow>
                     <mi>u</mi><mo>&#x0027;</mo><mi>v</mi><mo>&#x0027;</mo></mrow>
-                  <mo stretchy='true'>&#x00AF;</mo>
+                  <mo stretchy="true">&#x00AF;</mo>
                 </mover>
               </mrow>
               <mrow>
@@ -10058,10 +10411,10 @@ think / rather than -1
             </mfrac>
             <mo>+</mo><mfrac>
               <mrow>
-                <mo>&#x2202;</mo><mover accent='true'>
+                <mo>&#x2202;</mo><mover accent="true">
                   <mrow>
                     <mi>u</mi><mo>&#x0027;</mo><mi>u</mi><mo>&#x0027;</mo></mrow>
-                  <mo stretchy='true'>&#x00AF;</mo>
+                  <mo stretchy="true">&#x00AF;</mo>
                 </mover>
               </mrow>
               <mrow>
@@ -10069,10 +10422,10 @@ think / rather than -1
             </mfrac>
             <mo>+</mo><mfrac>
               <mrow>
-                <mo>&#x2202;</mo><mover accent='true'>
+                <mo>&#x2202;</mo><mover accent="true">
                   <mrow>
                     <mi>u</mi><mo>&#x0027;</mo><mi>w</mi><mo>&#x0027;</mo></mrow>
-                  <mo stretchy='true'>&#x00AF;</mo>
+                  <mo stretchy="true">&#x00AF;</mo>
                 </mover>
               </mrow>
               <mrow>
@@ -10087,9 +10440,9 @@ think / rather than -1
                     <mo>&#x2202;</mo>
                     <mn>2</mn>
                   </msup>
-                  <mover accent='true'>
+                  <mover accent="true">
                     <mi>u</mi>
-                    <mo stretchy='true'>&#x00AF;</mo>
+                    <mo stretchy="true">&#x00AF;</mo>
                   </mover>
                 </mrow>
                 <mrow>
@@ -10105,9 +10458,9 @@ think / rather than -1
                     <mo>&#x2202;</mo>
                     <mn>2</mn>
                   </msup>
-                  <mover accent='true'>
+                  <mover accent="true">
                     <mi>u</mi>
-                    <mo stretchy='true'>&#x00AF;</mo>
+                    <mo stretchy="true">&#x00AF;</mo>
                   </mover>
                 </mrow>
                 <mrow>
@@ -10123,9 +10476,9 @@ think / rather than -1
                     <mo>&#x2202;</mo>
                     <mn>2</mn>
                   </msup>
-                  <mover accent='true'>
+                  <mover accent="true">
                     <mi>u</mi>
-                    <mo stretchy='true'>&#x00AF;</mo>
+                    <mo stretchy="true">&#x00AF;</mo>
                   </mover>
                 </mrow>
                 <mrow>
@@ -10189,10 +10542,10 @@ think / rather than -1
           <mrow>
             <mi>x</mi><mi>y</mi></mrow>
         </msub>
-        <mo>=</mo><mo>&#x2212;</mo><mi>&#x03C1;</mi><mover accent='true'>
+        <mo>=</mo><mo>&#x2212;</mo><mi>&#x03C1;</mi><mover accent="true">
           <mrow>
             <mi>u</mi><mo>&#x0027;</mo><mi>v</mi><mo>&#x0027;</mo></mrow>
-          <mo stretchy='true'>&#x00AF;</mo>
+          <mo stretchy="true">&#x00AF;</mo>
         </mover>
         
       </math>
@@ -10287,7 +10640,7 @@ think / rather than -1
               <mrow>
                 <mi>i</mi><mi>j</mi></mrow>
             </msub>
-            <mo>&#x2212;</mo><mi>&#x03C1;</mi><mover accent='true'>
+            <mo>&#x2212;</mo><mi>&#x03C1;</mi><mover accent="true">
               <mrow>
                 <msub>
                   <mi>u</mi>
@@ -10298,7 +10651,7 @@ think / rather than -1
                   <mi>j</mi>
                 </msub>
               </mrow>
-              <mo stretchy='true'>&#x00AF;</mo>
+              <mo stretchy="true">&#x00AF;</mo>
             </mover>
           </mrow>
           <mo>)</mo></mrow>
@@ -10308,10 +10661,8 @@ think / rather than -1
 
     <para>for momentum, where <emphasis role="italic">i </emphasis>and <emphasis role="italic">j
       </emphasis>represent standard tensor notation indicating the <emphasis role="italic">x, y
-        </emphasis>and<emphasis role="italic"> z </emphasis>coordinate directions, <emphasis
-        role="italic">V<subscript>i</subscript></emphasis> is the mean velocity component in the
-        <emphasis role="italic">x<subscript>i</subscript></emphasis> direction, <emphasis
-        role="italic">p</emphasis> is the pressure, <emphasis role="italic">ρ</emphasis> is the
+        </emphasis>and<emphasis role="italic"> z </emphasis>coordinate directions, <emphasis role="italic">V<subscript>i</subscript></emphasis> is the mean velocity component in the
+        <emphasis role="italic">x<subscript>i</subscript></emphasis> direction, <emphasis role="italic">p</emphasis> is the pressure, <emphasis role="italic">ρ</emphasis> is the
       fluid density, <inlineequation>
         <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
           <semantics>
@@ -10333,9 +10684,7 @@ think / rather than -1
               aacqaH0oazdaWgaaWcbaGaamyAaiaadQgaaeqaaaaa@39C5@</annotation>
           </semantics>
         </math>
-      </inlineequation> is the Kronecker delta and is the turbulent Reynolds stress, where <emphasis
-        role="italic">u<subscript>i</subscript></emphasis> and <emphasis role="italic"
-          >u<subscript>j</subscript></emphasis> are fluctuating velocities, and is Reynolds averaged
+      </inlineequation> is the Kronecker delta and is the turbulent Reynolds stress, where <emphasis role="italic">u<subscript>i</subscript></emphasis> and <emphasis role="italic">u<subscript>j</subscript></emphasis> are fluctuating velocities, and is Reynolds averaged
       value of<emphasis role="italic">
       u<subscript>i</subscript>u<subscript>j</subscript></emphasis>. The first term is the transient
       term which is neglected and the second term is the convective term. The third term is the
@@ -10390,8 +10739,7 @@ think / rather than -1
           </mover>
         </math>
       </inlineequation> and is the turbulent kinetic energy and<emphasis role="italic"> ε</emphasis>
-      is the dissipation rate of turbulent kinetic energy. The turbulent kinetic energy <emphasis
-        role="italic">k </emphasis>is modelled as:</para>
+      is the dissipation rate of turbulent kinetic energy. The turbulent kinetic energy <emphasis role="italic">k </emphasis>is modelled as:</para>
 
     <equation xml:id="b6_ch2_e_zmusp">
       <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -10620,9 +10968,7 @@ think / rather than -1
       
     </equation>
 
-    <para>where C<subscript>ɛ1</subscript>, C<subscript>ɛ2</subscript> and <emphasis role="italic"
-        >σε</emphasis> are constants. Recommended values for the five constants in the <emphasis
-        role="italic">k-ε </emphasis>model given by <citation>b6_c2_r102+1</citation>. The SIMPLE
+    <para>where C<subscript>ɛ1</subscript>, C<subscript>ɛ2</subscript> and <emphasis role="italic">σε</emphasis> are constants. Recommended values for the five constants in the <emphasis role="italic">k-ε </emphasis>model given by <citation>b6_c2_r102+1</citation>. The SIMPLE
       method <citation>b6_c2_r89</citation> can be used for the pressure and velocity coupling, and
       an implicit solver was used to produce the velocity field across the geometry. Model
       convergence was assumed when all residuals of the RANS and turbulence equations between
@@ -11138,11 +11484,11 @@ think / rather than -1
             <mrow>
               <msubsup>
                 <mrow>
-                  <mo stretchy='false'>(</mo><msub>
+                  <mo stretchy="false">(</mo><msub>
                     <mi>R</mi>
                     <mi>h</mi>
                   </msub>
-                  <mo stretchy='false'>)</mo></mrow>
+                  <mo stretchy="false">)</mo></mrow>
                 <mi>r</mi>
                 <mrow>
                   <mn>2</mn><mo>/</mo><mn>3</mn></mrow>
@@ -11429,8 +11775,7 @@ think / rather than -1
       L/T<superscript>2</superscript></para>
 
       <para>Dimensional analysis enables the grouping of these parameters in a
-      number of ways. Adopting <emphasis role="italic">V</emphasis>, <emphasis
-      role="italic">y</emphasis>, and <inlineequation>
+      number of ways. Adopting <emphasis role="italic">V</emphasis>, <emphasis role="italic">y</emphasis>, and <inlineequation>
           <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
             <semantics>
               <mi>ρ</mi>
@@ -11550,8 +11895,7 @@ think / rather than -1
         
       </equation>
 
-      <para>and this condition is clearly incompatible with <xref
-      linkend="b6_ch2_e_n3pkh"/>. Indeed, it is readily shown that, if the
+      <para>and this condition is clearly incompatible with <xref linkend="b6_ch2_e_n3pkh"/>. Indeed, it is readily shown that, if the
       velocity scale is based on <xref linkend="b6_ch2_e_n3pkh"/>:</para>
 
       <equation xml:id="b6_ch2_e_gyfqi">
@@ -11586,11 +11930,8 @@ think / rather than -1
         </mediaobject>
       </figure>
 
-      <para>The equation for friction factor, the ordinate of <xref
-      linkend="b6_ch2_f_5a26d"/>, shows that the Froude criterion of <xref
-      linkend="b6_ch2_e_n3pkh"/> can only be satisfied if the friction factor
-      is the same in model and prototype. Superimposed on <xref
-      linkend="b6_ch2_f_5a26d"/> is a hypothetical range of prototype Reynolds
+      <para>The equation for friction factor, the ordinate of <xref linkend="b6_ch2_f_5a26d"/>, shows that the Froude criterion of <xref linkend="b6_ch2_e_n3pkh"/> can only be satisfied if the friction factor
+      is the same in model and prototype. Superimposed on <xref linkend="b6_ch2_f_5a26d"/> is a hypothetical range of prototype Reynolds
       numbers and a corresponding range of model operation, assuming a model
       scale of 1:25. For the example given, it is evident that equality of
       friction factor between model and prototype can only be obtained if the
@@ -11854,10 +12195,8 @@ think / rather than -1
             </msup>
           </math>
         </inlineequation> are boundary layer thickness and boundary layer displacement thickness
-        respectively, Re is the flow Reynolds number defined with respect to the length <emphasis
-          role="italic">x</emphasis> of boundary layer development,
-          <?oxy_comment_start author="ward" timestamp="20151130T100444+1100" comment="Check this symbol compared to rest of chapter Yes bad news"?><emphasis
-          role="italic">u</emphasis> is the velocity at elevation<emphasis role="italic">
+        respectively, Re is the flow Reynolds number defined with respect to the length <emphasis role="italic">x</emphasis> of boundary layer development,
+          <?oxy_comment_start author="ward" timestamp="20151130T100444+1100" comment="Check this symbol compared to rest of chapter Yes bad news"?><emphasis role="italic">u</emphasis> is the velocity at elevation<emphasis role="italic">
           y</emphasis> above the bed<?oxy_comment_end?>, and <emphasis role="italic">U</emphasis> is
         the free stream velocity.</para>
 
@@ -11889,8 +12228,7 @@ think / rather than -1
       <para><citation>b6_c2_r47+1</citation> has developed a procedure for determining the magnitude
         of the scale effect and for adjusting the model data to correctly predict the prototype
         behaviour. For details, the reader is referred to the original paper. The procedure relies
-        on the use of the process function for boundary layer growth embodied in <xref
-          linkend="b6_ch2_e_m02lq"/> to <xref linkend="b6_ch2_e_vbszo"/>.</para>
+        on the use of the process function for boundary layer growth embodied in <xref linkend="b6_ch2_e_m02lq"/> to <xref linkend="b6_ch2_e_vbszo"/>.</para>
 
       <para><citation>b6_c2_r48+1</citation> has applied the procedure to undrowned cut-throat
         flumes and typical results are presented in <xref linkend="b6_ch2_f_qbbys"/>. These data
@@ -11905,15 +12243,13 @@ think / rather than -1
         non-dimensional discharge parameter.</para>
 
       <para>The data in <xref linkend="b6_ch2_f_qbbys"/>(a) are uncorrected
-      and show a tendency at values of <emphasis
-      role="italic">ha</emphasis>/<emphasis role="italic">BT</emphasis> below
+      and show a tendency at values of <emphasis role="italic">ha</emphasis>/<emphasis role="italic">BT</emphasis> below
       about 0.8 to plot progressively to the right with flume size - ie for
       <emphasis role="italic">ha</emphasis> to be slightly less for the large
       flume than would be predicted from tests on the small flumes. Expressed
       in terms of more relevance to the practising engineer, an uncorrected
       model rating would result in an under-prediction in the discharge
-      through a four times larger prototype structure by up to 10%. <xref
-      linkend="b6_ch2_f_qbbys"/>(b) shows the data adjusted for dissimilar
+      through a four times larger prototype structure by up to 10%. <xref linkend="b6_ch2_f_qbbys"/>(b) shows the data adjusted for dissimilar
       boundary layer growth. It is clear that the small trend with flume size
       has been completely eliminated.</para>
 
@@ -12028,3 +12364,5 @@ think / rather than -1
   </xi:include>
   
 </chapter>
+
+<?oxy_options track_changes="on"?>
